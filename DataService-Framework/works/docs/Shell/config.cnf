@@ -1,0 +1,6 @@
+op_date date
+op_time datetime
+op_source string
+op_type type
+op_count int
+op_total int

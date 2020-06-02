@@ -1,0 +1,11 @@
+1、打包Spark程序
+File -> Project Structure... -> Artifacts -> + -> JAR -> From modules with dependencies...
+Build -> Build Artifacts -> Build
+
+2、提交Spark程序
+
+提交到Yarn-Client运行（停止程序运行：直接停止客户端的进程即可）
+spark-submit --class com.service.data.spark.streaming.StreamingFromKafka --master yarn-client spark-kafka.jar
+
+提交到Yarn-Cluster运行（停止程序运行：yarn application -kill applicationid）
+spark-submit --class com.service.data.spark.streaming.StreamingFromKafka --master yarn-client spark-kafka.jar

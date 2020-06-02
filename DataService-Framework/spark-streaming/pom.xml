@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.gitee.hy-wux.service.data</groupId>
+        <artifactId>DataService-Framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>spark-streaming</artifactId>
+    <name>DataService Spark Streaming</name>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <inceptionYear>2018</inceptionYear>
+
+    <dependencies>
+        <!-- Spark -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <!--打包部署的时候需要放开注释-->
+            <!--<scope>provided</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+        </dependency>
+
+        <!-- DataService -->
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>spark-sql</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,43 @@
+在需要安装Flume客户端进行日志数据采集的服务器上执行以下操作：
+
+1、从FusionInsight HD控制台下载Flume客户端，将客户端上传到日志采集的服务器
+
+2、解压客户端压缩包
+tar -xf FusionInsight_Flume_Client.tar
+
+3、校验客户端
+sha256sum -c FusionInsight_Flume_ClientConfig.tar.sha256
+
+4、解压客户端安装包
+tar -xf FusionInsight_Flume_ClientConfig.tar
+
+5、根据实际情况创建文件夹
+mkdir -p ${HOME}/FlumeClient/client
+mkdir -p ${HOME}/FlumeClient/logs
+mkdir -p ${HOME}/FlumeClient/works
+mkdir -p ${HOME}/FlumeClient/works/data
+mkdir -p ${HOME}/FlumeClient/works/data/data1
+mkdir -p ${HOME}/FlumeClient/works/data/data2
+mkdir -p ${HOME}/FlumeClient/works/checkpoint
+mkdir -p ${HOME}/FlumeClient/works/checkpoint/checkpoint1
+mkdir -p ${HOME}/FlumeClient/works/checkpoint/checkpoint2
+mkdir -p ${HOME}/FlumeClient/works/position
+mkdir -p ${HOME}/FlumeClient/works/monitor
+
+6、设置环境变量
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64
+
+7、切换到软件解压目录
+cd FusionInsight_Flume_ClientConfig/Flume/FlumeClient
+
+8、执行安装
+sh install.sh -d ${HOME}/FlumeClient/client -f 20.0.0.31,20.0.0.33 -c flume/conf/properties.properties -l ${HOME}/FlumeClient/logs -e 20.0.0.30 -n FlumeClientName
+
+-d 指定客户端安装目录
+-f 指定MonitorServer角色的服务器地址
+-c 指定客户端安装使用的配置文件
+-l 指定客户端运行的日志记录目录
+-e 指定Flume角色的服务端地址
+-n 指定Flume角色的客户端名称
+
+9、到FusionInsight HD控制台查看Flume客户端列表

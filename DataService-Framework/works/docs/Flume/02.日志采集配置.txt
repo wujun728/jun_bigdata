@@ -1,0 +1,166 @@
+一、Flume服务端properties.properties配置
+
+    server.sources = source
+    server.channels = channel
+    server.sinks = sink
+
+    server.sources.source.type = avro
+    server.sources.source.bind = 20.0.0.30
+    server.sources.source.port = 44444
+    server.sources.source.threads = 8
+    server.sources.source.compression-type = none
+    server.sources.source.compression-level = 6
+    server.sources.source.ssl = false
+    server.sources.source.channels = channel
+
+    server.channels.channel.type = file
+    server.channels.channel.dataDirs = /srv/BigData/hadoop/data1/flume/data
+    server.channels.channel.checkpointDir = /srv/BigData/hadoop/data1/flume/checkpoint
+
+    server.sinks.sink.type = org.apache.flume.sink.kafka.KafkaSink
+    server.sinks.sink.kafka.security.protocol = SASL_PLAINTEXT
+    server.sinks.sink.channel = channel
+
+二、Flume客户端properties.properties配置
+
+1、采集单个日志文件配置（适合于只采集一个日志文件的情况）
+
+    client.sources = source
+    client.channels = channel
+    client.sinks = sink
+
+    client.sources.source.type = exec
+    client.sources.source.command = tail -F ${HOME}/FlumeClient/works/monitor/sys1-log1.log
+    client.sources.source.shell = /bin/bash -c
+    client.sources.source.channels = channel
+
+    client.channels.channel.type = file
+    client.channels.channel.dataDirs = ${HOME}/FlumeClient/works/data
+    client.channels.channel.checkpointDir = ${HOME}/FlumeClient/works/checkpoint
+
+    client.sinks.sink.type = avro
+    client.sinks.sink.hostname = 20.0.0.30
+    client.sinks.sink.port = 44444
+    client.sinks.sink.channel = channel
+
+
+2、采集多个日志文件配置（适合于多个日志文件不在同一个目录下的情况）
+
+    client.sources = source1 source2
+    client.channels = channel1 channel2
+    client.sinks = sink1 sink2
+
+    client.sources.source1.type = exec
+    client.sources.source1.command = tail -F ${HOME}/FlumeClient/works/monitor/sys1-log1.log
+    client.sources.source1.shell = /bin/bash -c
+    client.sources.source1.channels = channel1
+
+    client.channels.channel1.type = file
+    client.channels.channel1.dataDirs = ${HOME}/FlumeClient/works/data/data1
+    client.channels.channel1.checkpointDir = ${HOME}/FlumeClient/works/checkpoint/checkpoint1
+
+    client.sinks.sink1.type = avro
+    client.sinks.sink1.hostname = 20.0.0.30
+    client.sinks.sink1.port = 44444
+    client.sinks.sink1.channel = channel1
+
+    client.sources.source2.type = exec
+    client.sources.source2.command = tail -F ${HOME}/FlumeClient/works/monitor/sys1-log2.log
+    client.sources.source2.shell = /bin/bash -c
+    client.sources.source2.channels = channel2
+
+    client.channels.channel2.type = file
+    client.channels.channel2.dataDirs = ${HOME}/FlumeClient/works/data/data2
+    client.channels.channel2.checkpointDir = ${HOME}/FlumeClient/works/checkpoint/checkpoint2
+
+    client.sinks.sink2.type = avro
+    client.sinks.sink2.hostname = 20.0.0.30
+    client.sinks.sink2.port = 44444
+    client.sinks.sink2.channel = channel2
+
+
+3、采集一个日志目录配置（适合于所有日志文件在同一个目录下的情况）
+
+    client.sources = source
+    client.channels = channel
+    client.sinks = sink
+
+    client.sources.source.type = TAILDIR
+    client.sources.source.channels = channel
+    client.sources.source.positionFile = ${HOME}/FlumeClient/works/position/position
+
+    client.sources.source.filegroups = f1 f2
+
+    client.sources.source.filegroups.f1 = ${HOME}/FlumeClient/works/monitor/sys1-log1.log
+    client.sources.source.headers.f1.topic = topic1
+
+    client.sources.source.filegroups.f2 = ${HOME}/FlumeClient/works/monitor/sys1-log2.log
+    client.sources.source.headers.f2.topic = topic2
+
+    client.channels.channel.type = file
+    client.channels.channel.dataDirs = ${HOME}/FlumeClient/works/data
+    client.channels.channel.checkpointDir = ${HOME}/FlumeClient/works/checkpoint
+
+    client.sinks.sink.type = avro
+    client.sinks.sink.hostname = 20.0.0.30
+    client.sinks.sink.port = 44444
+    client.sinks.sink.channel = channel
+
+
+4、混合日志采集（适合于采集多个日志文件，并且这些日志文件有的在同一个目录下，有的在其他目录下）
+这种情况
+    可以直接使用第2中情况的配置进行采集
+    也可以混合使用第2、3两种情况的配置，只需要增加source、channel即可
+
+    client.sources = source1 source2 source9
+    client.channels = channel1 channel2 channel9
+    client.sinks = sink1 sink2 sink9
+
+    client.sources.source1.type = exec
+    client.sources.source1.command = tail -F ${HOME}/FlumeClient/works/monitor/sys1-log1.log
+    client.sources.source1.shell = /bin/bash -c
+    client.sources.source1.channels = channel1
+
+    client.channels.channel1.type = file
+    client.channels.channel1.dataDirs = ${HOME}/FlumeClient/works/data/data1
+    client.channels.channel1.checkpointDir = ${HOME}/FlumeClient/works/checkpoint/checkpoint1
+
+    client.sinks.sink1.type = avro
+    client.sinks.sink1.hostname = 20.0.0.30
+    client.sinks.sink1.port = 44444
+    client.sinks.sink1.channel = channel1
+
+    client.sources.source2.type = exec
+    client.sources.source2.command = tail -F ${HOME}/FlumeClient/works/monitor/sys1-log2.log
+    client.sources.source2.shell = /bin/bash -c
+    client.sources.source2.channels = channel2
+
+    client.channels.channel2.type = file
+    client.channels.channel2.dataDirs = ${HOME}/FlumeClient/works/data/data2
+    client.channels.channel2.checkpointDir = ${HOME}/FlumeClient/works/checkpoint/checkpoint2
+
+    client.sinks.sink2.type = avro
+    client.sinks.sink2.hostname = 20.0.0.30
+    client.sinks.sink2.port = 44444
+    client.sinks.sink2.channel = channel2
+
+    client.sources.source9.type = TAILDIR
+    client.sources.source9.channels = channel9
+    client.sources.source9.positionFile = ${HOME}/FlumeClient/works/position/position
+
+    client.sources.source9.filegroups = f1 f2
+
+    client.sources.source9.filegroups.f1 = ${HOME}/FlumeClient/works/monitor/sys1-log1.log
+    client.sources.source9.headers.f1.topic = demo_topic_1
+
+    client.sources.source9.filegroups.f2 = ${HOME}/FlumeClient/works/monitor/sys1-log2.log
+    client.sources.source9.headers.f2.topic = demo_topic_2
+
+    client.channels.channel9.type = file
+    client.channels.channel9.dataDirs = ${HOME}/FlumeClient/works/data
+    client.channels.channel9.checkpointDir = ${HOME}/FlumeClient/works/checkpoint
+
+    client.sinks.sink9.type = avro
+    client.sinks.sink9.hostname = 20.0.0.30
+    client.sinks.sink9.port = 44444
+    client.sinks.sink9.channel = channel9

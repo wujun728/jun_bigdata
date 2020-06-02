@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.gitee.hy-wux.service.data</groupId>
+        <artifactId>DataService-Framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>kafka-clients</artifactId>
+    <name>DataService Kafka Clients</name>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <inceptionYear>2018</inceptionYear>
+
+    <properties>
+        <kafka.version>2.1.0</kafka.version>
+    </properties>
+
+    <dependencies>
+        <!-- Kafka -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.11</artifactId>
+            <version>${kafka.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+
+        <!-- DataService -->
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>commons</artifactId>
+        </dependency>
+    </dependencies>
+</project>

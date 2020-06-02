@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.gitee.hy-wux.service.data</groupId>
+        <artifactId>DataService-Framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>examples</artifactId>
+    <name>DataService Examples</name>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <inceptionYear>2018</inceptionYear>
+
+    <dependencies>
+        <!-- DataService -->
+
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>kafka-clients</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>rule-engine</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>spark-sql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gitee.hy-wux.service.data</groupId>
+            <artifactId>spark-streaming</artifactId>
+        </dependency>
+    </dependencies>
+</project>

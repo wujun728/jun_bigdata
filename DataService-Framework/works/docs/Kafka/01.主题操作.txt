@@ -1,0 +1,25 @@
+1、登录到安装有FusionInsight客户端的服务器
+
+2、设置Kerberos客户端认证
+cd ${FusionInsightClient}
+source bigdata_env
+kinit username
+
+3、切换到Kafka安装目录
+cd Kafka/kafka/bin
+
+4、查看Topic
+kafka-topics.sh --list --zookeeper 20.0.0.29:24002,20.0.0.32:24002,20.0.0.33:24002/kafka
+
+5、创建Topic
+kafka-topics.sh --create --topic topic_name --partitions 5 --replication-factor 1 --zookeeper 20.0.0.29:24002,20.0.0.32:24002,20.0.0.33:24002/kafka
+
+6、控制台生产者
+kafka-console-producer.sh --broker-list 20.0.0.29:21005,20.0.0.30:21005,20.0.0.31:21005,20.0.0.32:21005,20.0.0.33:21005 --topic topic_name --old-producer -sync
+
+7、消费Topic
+kafka-console-consumer.sh --zookeeper 20.0.0.29:24002,20.0.0.32:24002,20.0.0.33:24002/kafka --topic topic_name --from-beginning
+kafka-console-consumer.sh --bootstrap-server 20.0.0.29:21005,20.0.0.30:21005,20.0.0.31:21005,20.0.0.32:21005,20.0.0.33:21005 --new-consumer --topic topic_name --from-beginning
+
+8、删除Topic
+kafka-topics.sh --delete --zookeeper 20.0.0.29:24002,20.0.0.32:24002,20.0.0.33:24002/kafka --topic topic_name
