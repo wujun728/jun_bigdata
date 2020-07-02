@@ -37,7 +37,7 @@
 
         <spark.version>2.2.0</spark.version>
 
-        <mysql.version>5.1.38</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <oracle.version>12.1.0.2</oracle.version>
         <jedis.version>3.1.0-m1</jedis.version>
 
