@@ -1,0 +1,7 @@
+.CodeMirror {
+    /* Set height, width, borders, and global font properties here */
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    height: 200px;
+    width: 100%;
+    font-size: 11px;
+}
