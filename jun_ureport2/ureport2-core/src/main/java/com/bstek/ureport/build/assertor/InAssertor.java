@@ -18,7 +18,7 @@ package com.bstek.ureport.build.assertor;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月12日
  */
 public class InAssertor implements Assertor {

@@ -27,7 +27,7 @@ import com.bstek.ureport.exception.ReportComputeException;
 import com.bstek.ureport.provider.image.ImageProvider;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月20日
  */
 public class StaticImageProcessor implements ImageProcessor<String> {

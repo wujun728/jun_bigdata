@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * 全局异常处理器
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-11
  **/
 @Slf4j

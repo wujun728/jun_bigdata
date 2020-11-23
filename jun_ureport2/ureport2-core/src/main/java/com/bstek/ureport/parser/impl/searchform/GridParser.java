@@ -25,7 +25,7 @@ import com.bstek.ureport.definition.searchform.Component;
 import com.bstek.ureport.definition.searchform.GridComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class GridParser implements FormParser<GridComponent> {

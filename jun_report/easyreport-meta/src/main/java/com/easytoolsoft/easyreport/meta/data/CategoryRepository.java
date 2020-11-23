@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 报表类别(category表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("CategoryRepository")

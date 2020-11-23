@@ -12,7 +12,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 /**
  * 纵向展示统计列的报表生成类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class VerticalStatColumnReportBuilder extends AbstractReportBuilder implements ReportBuilder {
 

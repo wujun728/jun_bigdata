@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  * @see http://drill.apache.org/docs/using-the-jdbc-driver/
  */
 public class DrillQueryer extends AbstractQueryer implements Queryer {

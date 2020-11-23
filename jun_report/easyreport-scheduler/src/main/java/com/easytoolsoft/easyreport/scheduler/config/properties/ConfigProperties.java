@@ -13,7 +13,7 @@ import org.springframework.validation.annotation.Validated;
 /**
  * 自定义配置类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-19
  **/
 @Getter

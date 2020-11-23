@@ -19,7 +19,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public interface ReportProvider {

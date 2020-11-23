@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * 用户登录页控制器
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Slf4j

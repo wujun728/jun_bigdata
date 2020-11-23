@@ -13,7 +13,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportTable;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public abstract class AbstractReportBuilder implements ReportBuilder {
     protected final AbstractReportDataSet reportDataSet;

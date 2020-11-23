@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.Mapping;
 /**
  * 接口版本标识注解
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Target({ElementType.METHOD, ElementType.TYPE})

@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @param <Po>
  * @param <Example>
  * @param <Type>    Key字段数据类型(Integer,Long,String等)
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractRemoveService<Dao extends DeleteRepository<Po, Example, Type>, Po, Example, Type>

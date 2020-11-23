@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.value;
 import com.bstek.ureport.chart.Chart;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月9日
  */
 public class ChartValue implements Value {

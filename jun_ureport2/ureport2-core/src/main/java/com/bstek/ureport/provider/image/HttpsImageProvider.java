@@ -23,7 +23,7 @@ import javax.net.ssl.HttpsURLConnection;
 import com.bstek.ureport.exception.ReportException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年12月22日
  */
 public class HttpsImageProvider implements ImageProvider {

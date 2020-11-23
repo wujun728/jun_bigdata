@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.engine.data;
 import com.easytoolsoft.easyreport.engine.util.NumberFormatUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportDataCell {
     private final ReportDataColumn column;

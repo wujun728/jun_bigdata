@@ -25,7 +25,7 @@ import org.springframework.context.ApplicationContextAware;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年6月6日
  */
 public abstract class RenderPageServletAction extends WriteJsonServletAction implements ApplicationContextAware{

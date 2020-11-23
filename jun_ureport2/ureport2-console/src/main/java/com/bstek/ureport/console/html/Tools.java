@@ -16,7 +16,7 @@
 package com.bstek.ureport.console.html;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月1日
  */
 public class Tools {

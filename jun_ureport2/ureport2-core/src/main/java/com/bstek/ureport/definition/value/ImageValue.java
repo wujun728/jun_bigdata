@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.value;
 import com.bstek.ureport.expression.model.Expression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月24日
  */
 public class ImageValue implements Value {

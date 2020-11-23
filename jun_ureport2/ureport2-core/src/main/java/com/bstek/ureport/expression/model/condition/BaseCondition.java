@@ -32,7 +32,7 @@ import com.bstek.ureport.expression.model.data.ObjectListExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月22日
  */
 public abstract class BaseCondition implements Condition {

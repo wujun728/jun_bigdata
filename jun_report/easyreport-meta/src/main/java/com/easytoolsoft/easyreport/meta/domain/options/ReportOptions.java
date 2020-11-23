@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 /**
  * 报表配置选项(report表的options字段)持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

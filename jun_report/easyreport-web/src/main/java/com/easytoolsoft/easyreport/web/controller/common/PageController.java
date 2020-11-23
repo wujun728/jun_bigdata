@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * 通用的页面控件器
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Controller

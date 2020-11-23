@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class DateUtils {
     /**

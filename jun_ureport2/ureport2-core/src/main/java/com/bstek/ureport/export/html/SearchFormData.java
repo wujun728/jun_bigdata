@@ -18,7 +18,7 @@ package com.bstek.ureport.export.html;
 import com.bstek.ureport.definition.searchform.FormPosition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月31日
  */
 public class SearchFormData {

@@ -26,7 +26,7 @@ import com.bstek.ureport.definition.dataset.BeanDatasetDefinition;
 import com.bstek.ureport.definition.dataset.DatasetDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public class SpringBeanDatasourceDefinition implements DatasourceDefinition {

@@ -25,7 +25,7 @@ import com.bstek.ureport.definition.value.SlashValue;
 import com.bstek.ureport.definition.value.Value;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月6日
  */
 public class SlashValueParser extends ValueParser {

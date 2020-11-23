@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ajax shiro form auth处理类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class AjaxFormAuthenticationFilter extends FormAuthenticationFilter {

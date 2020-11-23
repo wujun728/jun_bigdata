@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.NumberExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月25日
  */
 public class NumberExpressionBuilder implements ExpressionBuilder {

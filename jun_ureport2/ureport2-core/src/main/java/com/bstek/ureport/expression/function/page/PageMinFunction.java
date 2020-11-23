@@ -28,7 +28,7 @@ import com.bstek.ureport.expression.model.data.ObjectListExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年5月5日
  */
 public class PageMinFunction extends PageFunction {

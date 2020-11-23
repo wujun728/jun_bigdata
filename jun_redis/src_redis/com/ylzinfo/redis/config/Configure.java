@@ -15,7 +15,7 @@ import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
 /**
- * @author asartear
+ * @author Wujun
  * 
  */
 public class Configure {

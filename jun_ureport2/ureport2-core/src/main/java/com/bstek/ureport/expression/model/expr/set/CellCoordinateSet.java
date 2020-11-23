@@ -18,7 +18,7 @@ package com.bstek.ureport.expression.model.expr.set;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月2日
  */
 public class CellCoordinateSet {

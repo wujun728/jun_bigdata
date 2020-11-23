@@ -15,7 +15,7 @@
  ******************************************************************************/
 package com.bstek.ureport.chart.plugins;
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2018年7月6日
  */
 public class DataLabelsPlugin implements Plugin {

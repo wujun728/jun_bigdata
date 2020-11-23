@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Jdbc工具类.
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class JdbcUtils {
     private static final Logger logger = LoggerFactory.getLogger(JdbcUtils.class);

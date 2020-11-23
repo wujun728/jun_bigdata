@@ -18,7 +18,7 @@ package com.bstek.ureport.exception;
 import com.bstek.ureport.model.ReportCell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class IllegalCellExpandException extends ReportException{

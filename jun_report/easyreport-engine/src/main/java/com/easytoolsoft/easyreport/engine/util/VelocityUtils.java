@@ -12,7 +12,7 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class VelocityUtils {
     /**

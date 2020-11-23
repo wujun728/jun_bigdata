@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.datasource;
 import java.sql.Connection;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月9日
  */
 public interface BuildinDatasource {

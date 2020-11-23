@@ -21,7 +21,7 @@ import java.io.InputStream;
 import com.bstek.ureport.cache.ResourceCache;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月17日
  */
 public class Resource {

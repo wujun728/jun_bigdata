@@ -20,7 +20,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.IntegerExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月24日
  */
 public class IntegerExpressionBuilder implements ExpressionBuilder{

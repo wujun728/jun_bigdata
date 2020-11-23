@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 /**
  * 分表(sharding)用户服务接口实现
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("ShardingUserService")

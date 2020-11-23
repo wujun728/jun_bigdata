@@ -27,7 +27,7 @@ import com.bstek.ureport.expression.model.data.ObjectExpressionData;
 import com.bstek.ureport.expression.model.data.ObjectListExpressionData;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月22日
  */
 public abstract class CalendarFunction implements Function{

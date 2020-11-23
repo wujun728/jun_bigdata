@@ -17,7 +17,7 @@ package com.bstek.ureport.build.cell;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public abstract class ExpandBuilder implements CellBuilder {

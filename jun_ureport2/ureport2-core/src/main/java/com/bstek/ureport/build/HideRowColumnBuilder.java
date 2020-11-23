@@ -25,7 +25,7 @@ import com.bstek.ureport.model.Report;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年7月4日
  */
 public class HideRowColumnBuilder {

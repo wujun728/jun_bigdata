@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 /**
  * 报表历史记录(_rpt_report_history表)持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

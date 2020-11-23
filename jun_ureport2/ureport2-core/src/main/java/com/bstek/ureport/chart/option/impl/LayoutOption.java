@@ -19,7 +19,7 @@ import com.bstek.ureport.chart.option.Option;
 import com.bstek.ureport.chart.option.Padding;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public class LayoutOption implements Option {

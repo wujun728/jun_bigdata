@@ -11,7 +11,7 @@ import redis.clients.jedis.JedisPoolConfig;
 /**
  * 
 * @Description:缓存池
-* @author 
+* @author Wujun
 * @date 2013-7-21 
 *
  */

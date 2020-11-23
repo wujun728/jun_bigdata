@@ -29,7 +29,7 @@ import com.itextpdf.text.pdf.PdfPCellEvent;
 import com.itextpdf.text.pdf.PdfPTable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月17日
  */
 public class CellBorderEvent implements PdfPCellEvent {

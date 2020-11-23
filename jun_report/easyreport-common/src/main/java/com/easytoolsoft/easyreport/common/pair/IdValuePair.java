@@ -1,7 +1,7 @@
 package com.easytoolsoft.easyreport.common.pair;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class IdValuePair {
     private String id;

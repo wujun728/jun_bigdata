@@ -38,7 +38,7 @@ import com.bstek.ureport.expression.model.condition.PropertyExpressionCondition;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月11日
  */
 public class ConditionParameterItemParser implements Parser<ConditionPropertyItem>{

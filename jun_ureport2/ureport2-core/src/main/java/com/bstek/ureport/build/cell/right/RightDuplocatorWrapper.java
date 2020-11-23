@@ -24,7 +24,7 @@ import com.bstek.ureport.build.cell.DuplicateType;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月25日
  */
 public class RightDuplocatorWrapper {

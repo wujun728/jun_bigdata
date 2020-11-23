@@ -9,7 +9,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表分类服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface CategoryService extends CrudService<Category, CategoryExample, Integer> {

@@ -15,7 +15,7 @@
  ******************************************************************************/
 package com.bstek.ureport.export.pdf.font;
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月22日
  */
 public interface FontRegister {

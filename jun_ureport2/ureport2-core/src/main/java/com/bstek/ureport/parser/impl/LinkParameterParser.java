@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.Expression;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月31日
  */
 public class LinkParameterParser implements Parser<LinkParameter> {

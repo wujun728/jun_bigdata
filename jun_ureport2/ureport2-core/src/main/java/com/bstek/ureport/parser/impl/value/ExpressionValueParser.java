@@ -20,7 +20,7 @@ import org.dom4j.Element;
 import com.bstek.ureport.definition.value.ExpressionValue;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月30日
  */
 public class ExpressionValueParser extends ValueParser{

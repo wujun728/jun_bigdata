@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 数据访问接口
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("UserRepository")

@@ -53,7 +53,7 @@ import com.bstek.ureport.utils.ImageUtils;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年8月10日
  */
 public class ExcelBuilderWithPaging extends ExcelBuilder{

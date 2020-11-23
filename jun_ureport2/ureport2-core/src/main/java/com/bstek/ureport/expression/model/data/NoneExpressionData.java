@@ -16,7 +16,7 @@
 package com.bstek.ureport.expression.model.data;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年5月5日
  */
 public class NoneExpressionData implements ExpressionData<Object>{

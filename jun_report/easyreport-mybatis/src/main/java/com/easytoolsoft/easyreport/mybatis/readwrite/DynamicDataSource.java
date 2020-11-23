@@ -7,7 +7,7 @@ import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.util.Assert;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {

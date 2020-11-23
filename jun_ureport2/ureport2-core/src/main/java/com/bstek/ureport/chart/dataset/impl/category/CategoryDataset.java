@@ -36,7 +36,7 @@ import com.bstek.ureport.utils.DataUtils;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月9日
  */
 public abstract class CategoryDataset extends BaseDataset {

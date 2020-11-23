@@ -21,7 +21,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.RelativeCellExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月21日
  */
 public class RelativeCellExpressionBuilder implements ExpressionBuilder {

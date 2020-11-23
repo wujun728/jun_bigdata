@@ -20,7 +20,7 @@ import java.util.List;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月17日
  */
 public class RepeatRows {

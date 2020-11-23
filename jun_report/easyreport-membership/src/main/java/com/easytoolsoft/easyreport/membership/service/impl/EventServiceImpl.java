@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.mybatis.service.AbstractCrudService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("EventService")

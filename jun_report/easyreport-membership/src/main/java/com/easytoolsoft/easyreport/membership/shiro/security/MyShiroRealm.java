@@ -19,7 +19,7 @@ import org.apache.shiro.util.ByteSource;
 /**
  * 系统模块服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class MyShiroRealm extends AuthorizingRealm {

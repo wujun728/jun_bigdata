@@ -14,7 +14,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportDataSource;
 /**
  * 无数据源连接池,直接使用jdbc连接
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class NoDataSourcePool implements DataSourcePoolWrapper {
     @Override

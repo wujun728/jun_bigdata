@@ -18,7 +18,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.filter.DelegatingFilterProxy;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-11
  **/
 @Configuration

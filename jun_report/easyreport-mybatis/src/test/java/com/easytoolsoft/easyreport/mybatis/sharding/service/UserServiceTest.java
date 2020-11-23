@@ -15,7 +15,7 @@ import org.mockito.internal.matchers.GreaterThan;
 /**
  * 分表(sharding)实现测试用例
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class UserServiceTest extends BaseTest {

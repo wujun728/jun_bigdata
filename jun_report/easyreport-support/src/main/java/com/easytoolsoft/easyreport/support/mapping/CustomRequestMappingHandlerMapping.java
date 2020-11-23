@@ -9,7 +9,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 /**
  * 自定义RequestMappingHandlerMapping,实现url api版本兼容
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class CustomRequestMappingHandlerMapping extends RequestMappingHandlerMapping {

@@ -12,7 +12,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 /**
  * ResponseBody注解返回的JSON对象类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Getter

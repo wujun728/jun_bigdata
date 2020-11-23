@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月11日
  */
 public class MobileUtils {

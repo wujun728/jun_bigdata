@@ -21,7 +21,7 @@ import java.net.URLDecoder;
 import com.bstek.ureport.console.exception.ReportDesignException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月26日
  */
 public class ReportUtils {

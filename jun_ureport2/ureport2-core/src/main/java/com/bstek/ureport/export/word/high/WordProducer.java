@@ -72,7 +72,7 @@ import com.bstek.ureport.utils.ImageUtils;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2015年5月20日
  */
 public class WordProducer implements Producer{

@@ -19,7 +19,7 @@ import org.apache.ibatis.session.RowBounds;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Slf4j

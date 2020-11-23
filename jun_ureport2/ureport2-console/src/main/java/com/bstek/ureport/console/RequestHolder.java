@@ -18,7 +18,7 @@ package com.bstek.ureport.console;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月8日
  */
 public class RequestHolder {

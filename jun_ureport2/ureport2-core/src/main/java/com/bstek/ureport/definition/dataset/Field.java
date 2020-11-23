@@ -16,7 +16,7 @@
 package com.bstek.ureport.definition.dataset;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月30日
  */
 public class Field {

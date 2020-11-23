@@ -16,7 +16,7 @@
 package com.bstek.ureport.expression.model.expr.set;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月6日
  */
 public enum CoordinateType {

@@ -20,7 +20,7 @@ import org.antlr.v4.runtime.RecognitionException;
 import org.antlr.v4.runtime.Recognizer;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月6日
  */
 public class ExpressionErrorListener extends BaseErrorListener {

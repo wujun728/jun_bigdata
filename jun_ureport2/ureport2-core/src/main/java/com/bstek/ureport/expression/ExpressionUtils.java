@@ -62,7 +62,7 @@ import com.bstek.ureport.expression.parse.builder.StringExpressionBuilder;
 import com.bstek.ureport.expression.parse.builder.VariableExpressionBuilder;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月24日
  */
 public class ExpressionUtils implements ApplicationContextAware{

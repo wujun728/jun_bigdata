@@ -20,7 +20,7 @@ import java.io.InputStream;
 import com.bstek.ureport.definition.value.ZxingValue;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月27日
  */
 public class ZxingImageProcessor implements ImageProcessor<ZxingValue> {

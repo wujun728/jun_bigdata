@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表历史记录服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface ReportHistoryService extends CrudService<ReportHistory, ReportHistoryExample, Integer> {

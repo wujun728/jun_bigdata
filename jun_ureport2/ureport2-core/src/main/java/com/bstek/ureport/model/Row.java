@@ -21,7 +21,7 @@ import com.bstek.ureport.definition.Band;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class Row extends Line{

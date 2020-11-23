@@ -18,7 +18,7 @@ package com.bstek.ureport.image;
 import java.io.InputStream;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月20日
  */
 public class ChartImageProcessor implements ImageProcessor<Object> {

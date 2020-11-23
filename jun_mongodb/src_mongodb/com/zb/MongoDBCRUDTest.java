@@ -21,7 +21,7 @@ import com.mongodb.QueryOperators;
 import com.mongodb.util.JSON;
 
 /**
- * @author zhoubang
+ * @author Wujun
  * 创建时间 ： 2014年11月4日 下午3:15:17
  * 
  * MongoDB的简单CRUD操作
@@ -69,7 +69,7 @@ public class MongoDBCRUDTest {
 	/**
 	 * 查询所有数据
 	 * 
-	 * @author zhoubang
+	 * @author Wujun
 	 * 创建时间 ： 2014年11月4日 下午3:17:14
 	 */
 	@Test
@@ -85,7 +85,7 @@ public class MongoDBCRUDTest {
 	/**
 	 * 添加数据
 	 * 
-	 * @author zhoubang
+	 * @author Wujun
 	 * 创建时间 ： 2014年11月4日 下午3:38:44
 	 */
 	@Test
@@ -117,7 +117,7 @@ public class MongoDBCRUDTest {
 	/**
 	 * 删除数据
 	 * 
-	 * @author zhoubang
+	 * @author Wujun
 	 * 创建时间 ： 2014年11月4日 下午3:38:57
 	 */
 	@Test
@@ -130,7 +130,7 @@ public class MongoDBCRUDTest {
 	/**
 	 * 修改数据
 	 * 
-	 * @author zhoubang
+	 * @author Wujun
 	 * 创建时间 ： 2014年11月4日 下午3:41:31
 	 */
 	@Test
@@ -179,7 +179,7 @@ public class MongoDBCRUDTest {
 	/**
 	 * 其他操作
 	 * 
-	 * @author zhoubang
+	 * @author Wujun
 	 * 创建时间 ： 2014年11月4日 下午4:06:33
 	 */
 	@Test

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 报表数据源类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportDataSource {
     private final String uid;

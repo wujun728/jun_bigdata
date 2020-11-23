@@ -11,7 +11,7 @@ import com.easytoolsoft.easyreport.support.consts.UserAuthConsts;
 /**
  * 绑定当前登录的用户
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Target({ElementType.PARAMETER})

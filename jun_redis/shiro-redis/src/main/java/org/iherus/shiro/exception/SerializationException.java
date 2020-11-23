@@ -18,7 +18,7 @@ package org.iherus.shiro.exception;
 /**
  * <p>序列化异常类</p>
  * <p>Description:供序列化工具使用.</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月10日-下午10:49:36
  */

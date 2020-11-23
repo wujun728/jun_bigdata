@@ -7,7 +7,7 @@ import com.easytoolsoft.easyreport.mybatis.sharding.service.CrudService;
 /**
  * 分表(sharding)用户服务接口
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface UserService extends CrudService<User, UserExample, Integer> {

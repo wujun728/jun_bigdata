@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @param <Dao>
  * @param <Po>
  * @param <Example>
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractEditService<Dao extends UpdateRepository<Po, Example>, Po, Example>

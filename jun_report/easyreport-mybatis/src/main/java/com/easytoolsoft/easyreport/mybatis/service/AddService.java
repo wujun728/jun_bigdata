@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @param <T> Po
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface AddService<T> {

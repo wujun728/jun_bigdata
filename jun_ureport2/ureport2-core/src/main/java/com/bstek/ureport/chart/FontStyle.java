@@ -16,7 +16,7 @@
 package com.bstek.ureport.chart;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public enum FontStyle {

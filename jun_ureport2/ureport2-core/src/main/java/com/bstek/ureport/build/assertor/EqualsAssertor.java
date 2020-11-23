@@ -20,7 +20,7 @@ import java.math.BigDecimal;
 import com.bstek.ureport.Utils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月12日
  */
 public class EqualsAssertor extends AbstractAssertor {

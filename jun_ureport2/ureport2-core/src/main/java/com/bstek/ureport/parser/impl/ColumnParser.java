@@ -22,7 +22,7 @@ import com.bstek.ureport.definition.ColumnDefinition;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月5日
  */
 public class ColumnParser implements Parser<ColumnDefinition> {

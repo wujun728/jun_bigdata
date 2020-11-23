@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 系统模块(easyreport_member_module表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("ModuleRepository")

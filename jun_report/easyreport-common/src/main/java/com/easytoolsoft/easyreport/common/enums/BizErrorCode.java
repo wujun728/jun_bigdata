@@ -4,7 +4,7 @@ import com.easytoolsoft.easyreport.support.enums.ErrorCode;
 import com.easytoolsoft.easyreport.support.i18n.LocaleUtils;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-01
  **/
 public enum BizErrorCode implements ErrorCode {

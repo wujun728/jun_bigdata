@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.meta.form.control;
 import java.util.List;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  **/
 public class HtmlCheckBoxList extends HtmlFormElement {

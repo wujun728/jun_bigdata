@@ -20,7 +20,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.VariableExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2018年7月15日
  */
 public class VariableExpressionBuilder implements ExpressionBuilder {

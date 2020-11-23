@@ -16,7 +16,7 @@
 package com.bstek.ureport.image;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月27日
  */
 public enum ImageType {

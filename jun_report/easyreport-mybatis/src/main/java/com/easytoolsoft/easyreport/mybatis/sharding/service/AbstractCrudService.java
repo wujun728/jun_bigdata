@@ -11,7 +11,7 @@ import com.easytoolsoft.easyreport.mybatis.sharding.data.CrudRepository;
  * @param <Dao>
  * @param <Po>
  * @param <Example>
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractCrudService<Dao extends CrudRepository<Po, Example, Type>, Po, Example, Type>

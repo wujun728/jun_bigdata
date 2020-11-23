@@ -37,7 +37,7 @@ import com.bstek.ureport.definition.CellStyle;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年7月3日
  */
 public class CellStyleContext {

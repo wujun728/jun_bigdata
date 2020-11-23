@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * 系统操作日志注解
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  **/
 @Target({ElementType.PARAMETER, ElementType.METHOD})

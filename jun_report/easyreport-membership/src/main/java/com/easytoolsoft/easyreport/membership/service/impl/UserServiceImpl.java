@@ -11,7 +11,7 @@ import com.easytoolsoft.easyreport.support.security.PasswordService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("UserService")

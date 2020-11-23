@@ -29,7 +29,7 @@ import com.bstek.ureport.definition.HeaderFooterDefinition;
 import com.bstek.ureport.definition.Paper;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class Report {

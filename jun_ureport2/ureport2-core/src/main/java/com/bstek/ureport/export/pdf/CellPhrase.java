@@ -24,7 +24,7 @@ import com.itextpdf.text.Font;
 import com.itextpdf.text.Phrase;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月17日
  */
 public class CellPhrase extends Phrase {

@@ -18,7 +18,7 @@ package com.bstek.ureport.provider.report;
 import java.util.Date;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月11日
  */
 public class ReportFile {

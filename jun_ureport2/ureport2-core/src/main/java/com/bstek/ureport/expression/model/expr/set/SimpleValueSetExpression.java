@@ -22,7 +22,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月1日
  */
 public class SimpleValueSetExpression extends BaseExpression {

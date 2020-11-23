@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.value;
 import com.bstek.ureport.expression.model.expr.dataset.DatasetExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public class DatasetValue extends DatasetExpression implements Value{

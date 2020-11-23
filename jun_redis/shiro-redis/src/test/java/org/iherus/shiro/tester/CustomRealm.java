@@ -32,7 +32,7 @@ import org.apache.shiro.util.ByteSource;
 /**
  * <p>CustomRealm</p>
  * <p>Description:</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月12日-下午9:24:44
  */

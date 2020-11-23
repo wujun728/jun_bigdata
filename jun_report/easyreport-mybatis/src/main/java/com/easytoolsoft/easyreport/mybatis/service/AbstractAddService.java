@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * @param <Dao>
  * @param <Po>
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractAddService<Dao extends InsertRepository<Po>, Po> implements AddService<Po> {

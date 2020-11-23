@@ -29,7 +29,7 @@ import com.bstek.ureport.definition.datasource.DatasourceDefinition;
 import com.bstek.ureport.definition.searchform.SearchForm;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月29日
  */
 public class ReportDefinitionWrapper {

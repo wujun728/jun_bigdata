@@ -17,7 +17,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 /**
  * 用户与权限业务数据源配置类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-28
  **/
 @Configuration

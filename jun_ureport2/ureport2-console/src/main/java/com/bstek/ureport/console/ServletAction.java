@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月25日
  */
 public interface ServletAction {

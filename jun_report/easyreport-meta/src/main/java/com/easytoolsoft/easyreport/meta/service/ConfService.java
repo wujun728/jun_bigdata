@@ -34,7 +34,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表相关配置项服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface ConfService extends CrudService<Conf, ConfExample, Integer> {

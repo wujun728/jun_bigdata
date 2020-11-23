@@ -29,7 +29,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.utils.DataUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月22日
  */
 public class SelectAggregate extends Aggregate {

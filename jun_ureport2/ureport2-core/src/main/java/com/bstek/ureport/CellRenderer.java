@@ -20,7 +20,7 @@ import java.util.Map;
 import com.bstek.ureport.model.ReportCell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月19日
  */
 public interface CellRenderer {

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 报表配置项(_rpt_conf表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("ConfRepository")

@@ -18,7 +18,7 @@ package com.bstek.ureport.console.exception;
 import com.bstek.ureport.exception.ReportException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月26日
  */
 public class ReportDesignException extends ReportException {

@@ -28,7 +28,7 @@ import org.codehaus.jackson.map.annotate.JsonSerialize.Inclusion;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年5月23日
  */
 public abstract class WriteJsonServletAction extends BaseServletAction{

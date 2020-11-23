@@ -24,7 +24,7 @@ import com.bstek.ureport.build.Dataset;
 import com.bstek.ureport.exception.DatasetUndefinitionException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月23日
  */
 public class SelectInputComponent extends InputComponent {

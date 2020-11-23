@@ -51,7 +51,7 @@ import com.bstek.ureport.expression.model.expr.set.FromToExpression;
 import com.bstek.ureport.expression.model.expr.set.WholeCellExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月25日
  */
 public class SetExpressionBuilder extends BaseExpressionBuilder{

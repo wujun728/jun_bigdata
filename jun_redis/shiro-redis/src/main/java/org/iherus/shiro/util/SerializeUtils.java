@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 /**
  * <p>序列化工具类</p>
  * <p>Description:基于JDK原生实现，支持序列化和反序列化.</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月10日-下午8:25:27
  */

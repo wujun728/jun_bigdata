@@ -16,7 +16,7 @@
 package com.bstek.ureport.exception;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月26日
  */
 public class ReportComputeException extends ReportException {

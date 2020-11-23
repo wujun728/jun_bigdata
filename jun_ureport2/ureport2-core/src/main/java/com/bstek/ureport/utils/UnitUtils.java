@@ -18,7 +18,7 @@ package com.bstek.ureport.utils;
 import com.bstek.ureport.Utils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月16日
  */
 public class UnitUtils {

@@ -16,7 +16,7 @@
 package com.bstek.ureport.build.paging;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月17日
  */
 public class HeaderFooter {

@@ -28,7 +28,7 @@ import org.springframework.web.context.WebApplicationContext;
 import com.bstek.ureport.exception.ReportComputeException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月6日
  */
 public class DefaultImageProvider implements ImageProvider,ApplicationContextAware {

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 系统权限(easyreport_member_permission表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("PermissionRepository")

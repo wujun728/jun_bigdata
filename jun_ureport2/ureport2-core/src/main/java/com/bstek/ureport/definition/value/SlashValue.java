@@ -20,7 +20,7 @@ import java.util.List;
 import org.codehaus.jackson.annotate.JsonIgnore;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月14日
  */
 public class SlashValue implements Value {

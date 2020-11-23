@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月13日
  */
 public class DataResult {

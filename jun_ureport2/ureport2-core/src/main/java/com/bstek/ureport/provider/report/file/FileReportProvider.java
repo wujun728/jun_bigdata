@@ -40,7 +40,7 @@ import com.bstek.ureport.provider.report.ReportFile;
 import com.bstek.ureport.provider.report.ReportProvider;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月11日
  */
 public class FileReportProvider implements ReportProvider,ApplicationContextAware{

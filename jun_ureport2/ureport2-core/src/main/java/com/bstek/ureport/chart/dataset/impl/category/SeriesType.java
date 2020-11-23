@@ -16,7 +16,7 @@
 package com.bstek.ureport.chart.dataset.impl.category;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月29日
  */
 public enum SeriesType {

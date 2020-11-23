@@ -16,7 +16,7 @@
 package com.bstek.ureport.chart.dataset;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月13日
  */
 public enum CollectType {

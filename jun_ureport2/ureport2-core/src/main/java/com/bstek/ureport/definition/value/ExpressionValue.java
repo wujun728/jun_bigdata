@@ -19,7 +19,7 @@ import com.bstek.ureport.expression.ExpressionUtils;
 import com.bstek.ureport.expression.model.Expression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月24日
  */
 public class ExpressionValue implements Value{

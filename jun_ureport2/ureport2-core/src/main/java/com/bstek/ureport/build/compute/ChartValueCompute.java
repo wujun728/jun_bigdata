@@ -27,7 +27,7 @@ import com.bstek.ureport.definition.value.ValueType;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月9日
  */
 public class ChartValueCompute implements ValueCompute {

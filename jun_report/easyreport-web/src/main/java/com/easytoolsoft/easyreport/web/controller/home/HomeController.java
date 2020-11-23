@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Home页控制器
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Controller

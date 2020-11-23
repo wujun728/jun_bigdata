@@ -28,7 +28,7 @@ import com.bstek.ureport.definition.dataset.SqlDatasetDefinition;
 import com.bstek.ureport.exception.ReportComputeException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public class JdbcDatasourceDefinition implements DatasourceDefinition {

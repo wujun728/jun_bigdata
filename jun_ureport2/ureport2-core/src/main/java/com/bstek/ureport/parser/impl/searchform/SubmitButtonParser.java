@@ -21,7 +21,7 @@ import com.bstek.ureport.definition.searchform.Align;
 import com.bstek.ureport.definition.searchform.SubmitButtonComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class SubmitButtonParser implements FormParser<SubmitButtonComponent> {

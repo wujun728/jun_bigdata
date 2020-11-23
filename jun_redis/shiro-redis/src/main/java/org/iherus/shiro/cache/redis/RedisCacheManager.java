@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 /**
  * <p>缓存管理器</p>
  * <p>Description:管理缓存池的初始化、获取当前缓存对象和销毁缓存池</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月11日-下午4:03:01
  */

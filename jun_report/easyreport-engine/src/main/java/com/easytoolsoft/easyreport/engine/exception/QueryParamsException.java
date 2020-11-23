@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.engine.exception;
 /**
  * 报表查询参数异常
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class QueryParamsException extends RuntimeException {

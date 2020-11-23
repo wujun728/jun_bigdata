@@ -38,7 +38,7 @@ import com.bstek.ureport.export.excel.low.Excel97Producer;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年7月3日
  */
 public class ExportExcel97ServletAction extends BaseServletAction {

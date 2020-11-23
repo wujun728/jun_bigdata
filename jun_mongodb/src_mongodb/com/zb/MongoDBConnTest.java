@@ -9,7 +9,7 @@ import com.mongodb.Mongo;
 import com.mongodb.util.JSON;
 
 /**
- * @author zhoubang
+ * @author Wujun
  * 创建时间 ： 2014年11月4日 下午3:01:27
  * 
  * MongoDB的简单CRUD操作

@@ -25,7 +25,7 @@ import com.bstek.ureport.expression.ExpressionUtils;
 import com.bstek.ureport.expression.model.Expression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月6日
  */
 public class ImageValueParser extends ValueParser {

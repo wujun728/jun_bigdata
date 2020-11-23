@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * jQueryEasyUI(http://www.jeasyui.com/)树节点视图数据模型类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class EasyUITreeNode<T> {
     private final List<EasyUITreeNode<T>> children = new ArrayList<>();

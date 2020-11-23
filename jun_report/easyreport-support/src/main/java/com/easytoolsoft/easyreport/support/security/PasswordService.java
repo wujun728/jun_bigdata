@@ -1,7 +1,7 @@
 package com.easytoolsoft.easyreport.support.security;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-07
  **/
 public interface PasswordService {

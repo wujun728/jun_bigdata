@@ -19,7 +19,7 @@ import java.io.OutputStream;
 import java.util.Map;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月20日
  */
 public class ExportConfigureImpl implements ExportConfigure{

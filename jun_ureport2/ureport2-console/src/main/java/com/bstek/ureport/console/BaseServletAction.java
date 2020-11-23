@@ -29,7 +29,7 @@ import org.apache.commons.lang3.StringUtils;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年6月3日
  */
 public abstract class BaseServletAction implements ServletAction {

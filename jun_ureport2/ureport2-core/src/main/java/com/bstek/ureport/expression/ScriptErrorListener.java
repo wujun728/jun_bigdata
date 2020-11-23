@@ -23,7 +23,7 @@ import org.antlr.v4.runtime.RecognitionException;
 import org.antlr.v4.runtime.Recognizer;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年7月26日
  */
 public class ScriptErrorListener extends BaseErrorListener {

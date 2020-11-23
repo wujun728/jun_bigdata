@@ -11,7 +11,7 @@ import com.easytoolsoft.easyreport.support.security.MembershipFacade;
 /**
  * 用户权限服务外观类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface MembershipFacadeService extends MembershipFacade<User> {

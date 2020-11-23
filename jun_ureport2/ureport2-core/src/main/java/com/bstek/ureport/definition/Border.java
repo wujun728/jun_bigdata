@@ -18,7 +18,7 @@ package com.bstek.ureport.definition;
 import java.io.Serializable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年3月12日
  */
 public class Border implements Serializable{

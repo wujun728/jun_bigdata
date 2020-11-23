@@ -35,7 +35,7 @@ import com.bstek.ureport.image.ImageType;
 import com.bstek.ureport.image.StaticImageProcessor;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月20日
  */
 public class ImageUtils {

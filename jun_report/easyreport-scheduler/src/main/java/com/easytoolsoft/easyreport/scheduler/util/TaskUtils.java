@@ -6,7 +6,7 @@ import com.easytoolsoft.easyreport.meta.domain.Task;
 import com.easytoolsoft.easyreport.meta.service.TaskService;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class TaskUtils {
     private static TaskService service;

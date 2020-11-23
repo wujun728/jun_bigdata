@@ -17,7 +17,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 /**
  * 持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

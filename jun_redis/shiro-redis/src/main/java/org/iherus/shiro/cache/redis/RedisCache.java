@@ -37,7 +37,7 @@ import redis.clients.util.SafeEncoder;
 /**
  * <p>缓存接口实现类</p>
  * <p>Description:实现Shiro缓存接口，提供远程获取缓存对象、远程保存缓存对象和远程清空缓存库等功能</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月11日-下午4:06:06
  */

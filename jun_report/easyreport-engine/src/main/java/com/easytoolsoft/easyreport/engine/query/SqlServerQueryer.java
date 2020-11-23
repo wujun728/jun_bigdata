@@ -8,7 +8,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
  * 在使用该查询器时,请先参考:https://msdn.microsoft.com/library/mt484311.aspx
  * 获取sqlserver jdbc driver,然后把相关jdbc driver的jar包加入该系统的类路径下(如WEB-INF/lib)
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class SqlServerQueryer extends AbstractQueryer implements Queryer {
     public SqlServerQueryer(final ReportDataSource dataSource, final ReportParameter parameter) {

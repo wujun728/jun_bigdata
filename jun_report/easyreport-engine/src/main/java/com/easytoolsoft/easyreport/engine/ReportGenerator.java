@@ -11,7 +11,7 @@ import com.easytoolsoft.easyreport.engine.query.Queryer;
 /**
  * 报表产生器类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportGenerator {
 

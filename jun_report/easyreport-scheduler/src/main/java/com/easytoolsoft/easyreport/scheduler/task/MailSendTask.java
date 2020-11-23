@@ -9,7 +9,7 @@ import com.easytoolsoft.easyreport.scheduler.util.TaskUtils;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 @Slf4j
 public class MailSendTask extends TimerTask {

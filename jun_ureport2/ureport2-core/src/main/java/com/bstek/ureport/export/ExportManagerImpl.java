@@ -31,7 +31,7 @@ import com.bstek.ureport.export.word.high.WordProducer;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public class ExportManagerImpl implements ExportManager {

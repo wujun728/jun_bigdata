@@ -22,7 +22,7 @@ import com.bstek.ureport.definition.Expand;
 import com.bstek.ureport.definition.value.Value;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月19日
  */
 public interface ReportCell {

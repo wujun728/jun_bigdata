@@ -51,7 +51,7 @@ import com.bstek.ureport.parser.ReportParser;
 import com.bstek.ureport.provider.report.ReportProvider;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月25日
  */
 public class DesignerServletAction extends RenderPageServletAction {

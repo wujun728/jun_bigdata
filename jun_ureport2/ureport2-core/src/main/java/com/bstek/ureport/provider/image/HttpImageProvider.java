@@ -22,7 +22,7 @@ import java.net.URLConnection;
 import com.bstek.ureport.exception.ReportException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年12月11日
  */
 public class HttpImageProvider implements ImageProvider {

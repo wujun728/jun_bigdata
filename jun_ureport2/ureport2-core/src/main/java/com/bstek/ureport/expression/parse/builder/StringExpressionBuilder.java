@@ -21,7 +21,7 @@ import com.bstek.ureport.expression.model.expr.StringExpression;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月23日
  */
 public class StringExpressionBuilder implements ExpressionBuilder {

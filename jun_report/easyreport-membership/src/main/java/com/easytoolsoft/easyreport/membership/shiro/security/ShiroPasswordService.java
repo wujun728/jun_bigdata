@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 /**
  * 用户口令服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("ShiroPasswordService")

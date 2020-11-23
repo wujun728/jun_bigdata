@@ -18,7 +18,7 @@ package com.bstek.ureport;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年5月25日
  */
 public class UReportPropertyPlaceholderConfigurer extends PropertySourcesPlaceholderConfigurer {

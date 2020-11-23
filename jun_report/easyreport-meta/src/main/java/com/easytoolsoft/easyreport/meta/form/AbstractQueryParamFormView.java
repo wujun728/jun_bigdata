@@ -16,7 +16,7 @@ import com.easytoolsoft.easyreport.meta.form.control.HtmlTextBox;
 /**
  * 报表的查询参数表单视图基类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractQueryParamFormView {

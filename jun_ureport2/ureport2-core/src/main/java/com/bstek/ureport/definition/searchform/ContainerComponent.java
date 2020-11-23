@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.searchform;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月23日
  */
 public abstract class ContainerComponent implements Component {

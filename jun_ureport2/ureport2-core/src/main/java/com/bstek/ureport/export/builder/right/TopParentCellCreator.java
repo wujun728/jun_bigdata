@@ -25,7 +25,7 @@ import com.bstek.ureport.definition.CellDefinition;
 import com.bstek.ureport.parser.BuildUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月27日
  */
 public class TopParentCellCreator {

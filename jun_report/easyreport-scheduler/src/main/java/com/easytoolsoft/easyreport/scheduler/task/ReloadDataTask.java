@@ -5,7 +5,7 @@ import java.util.TimerTask;
 import com.easytoolsoft.easyreport.scheduler.util.TaskUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class ReloadDataTask extends TimerTask {
     @Override

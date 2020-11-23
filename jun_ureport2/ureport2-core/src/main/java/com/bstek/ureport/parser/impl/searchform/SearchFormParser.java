@@ -25,7 +25,7 @@ import com.bstek.ureport.definition.searchform.SearchForm;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class SearchFormParser implements Parser<SearchForm> {

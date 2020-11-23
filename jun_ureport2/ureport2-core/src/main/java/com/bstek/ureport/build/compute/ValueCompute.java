@@ -23,7 +23,7 @@ import com.bstek.ureport.definition.value.ValueType;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public interface ValueCompute {

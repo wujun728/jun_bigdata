@@ -48,7 +48,7 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月27日
  */
 public class ZxingValueCompute implements ValueCompute {

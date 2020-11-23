@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * @param <T> Po
  * @param <U> Example
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface EditService<T, U> {

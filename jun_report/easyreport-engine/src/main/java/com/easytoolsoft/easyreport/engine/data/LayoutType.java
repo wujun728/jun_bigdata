@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.engine.data;
 /**
  * 报表布局类型
  *
- * @author tomdeng
+ * @author Wujun
  */
 public enum LayoutType {
     /**

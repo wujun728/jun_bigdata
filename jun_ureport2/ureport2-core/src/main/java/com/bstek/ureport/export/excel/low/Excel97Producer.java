@@ -55,7 +55,7 @@ import com.bstek.ureport.utils.ImageUtils;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年7月3日
  */
 public class Excel97Producer {

@@ -31,7 +31,7 @@ import com.bstek.ureport.cache.ResourceCache;
 import com.bstek.ureport.console.ServletAction;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年6月6日
  */
 public class ImageServletAction implements ServletAction{

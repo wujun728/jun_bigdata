@@ -26,7 +26,7 @@ import com.bstek.ureport.model.Column;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月10日
  */
 public class RightDuplicate {

@@ -25,7 +25,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.model.Column;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月7日
  */
 public class CellRightDuplicator {

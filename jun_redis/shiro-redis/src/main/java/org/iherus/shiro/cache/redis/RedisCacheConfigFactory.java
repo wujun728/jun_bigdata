@@ -23,7 +23,7 @@ import redis.clients.jedis.Protocol;
 /**
  * <p>客户端配置工厂</p>
  * <p>Description:缓存池主要依赖本工厂实现实例化</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月11日-下午4:05:08
  */

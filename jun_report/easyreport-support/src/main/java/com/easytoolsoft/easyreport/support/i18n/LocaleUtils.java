@@ -19,7 +19,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import org.springframework.web.util.WebUtils;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-05
  **/
 @Slf4j

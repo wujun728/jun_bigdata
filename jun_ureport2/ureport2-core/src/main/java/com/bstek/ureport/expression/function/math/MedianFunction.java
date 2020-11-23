@@ -25,7 +25,7 @@ import com.bstek.ureport.model.Cell;
 
 /**
  * 求中位数
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月23日
  */
 public class MedianFunction extends MathFunction {

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.web.servlet.mvc.condition.RequestCondition;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class ApiVesrsionCondition implements RequestCondition<ApiVesrsionCondition> {

@@ -20,7 +20,7 @@ import com.bstek.ureport.expression.model.Operator;
 import com.bstek.ureport.utils.ArithUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月25日
  */
 public class ElUnit {

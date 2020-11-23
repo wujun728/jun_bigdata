@@ -27,7 +27,7 @@ import com.bstek.ureport.console.RenderPageServletAction;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月30日
  */
 public class ChartServletAction extends RenderPageServletAction {

@@ -18,7 +18,7 @@ package com.bstek.ureport.export.word;
 import java.math.BigInteger;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2015年8月8日
  */
 public class DxaUtils {

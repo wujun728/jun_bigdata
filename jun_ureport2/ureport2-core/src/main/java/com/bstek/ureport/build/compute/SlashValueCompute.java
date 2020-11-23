@@ -26,7 +26,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.model.Image;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月14日
  */
 public class SlashValueCompute implements ValueCompute {

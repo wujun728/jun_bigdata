@@ -20,7 +20,7 @@ import java.io.InputStream;
 import com.bstek.ureport.definition.ReportDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年5月27日
  */
 public abstract class ExcelParser {

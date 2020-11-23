@@ -18,7 +18,7 @@ package com.bstek.ureport;
 import java.io.Serializable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月24日
  */
 public class Range implements Serializable{

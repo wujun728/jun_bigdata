@@ -5,7 +5,7 @@ import java.util.Map;
 import com.easytoolsoft.easyreport.engine.util.VelocityUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportSqlTemplate {
 

@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月23日
  */
 public class CheckboxInputComponent extends InputComponent {

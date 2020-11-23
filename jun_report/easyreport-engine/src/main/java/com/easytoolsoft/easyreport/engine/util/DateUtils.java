@@ -11,7 +11,7 @@ import java.util.TimeZone;
 /**
  * 日期工具类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class DateUtils {
     private static final String YYYY_MM_DD = "yyyy-MM-dd";

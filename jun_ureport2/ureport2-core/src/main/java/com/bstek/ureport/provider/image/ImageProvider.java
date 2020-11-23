@@ -18,7 +18,7 @@ package com.bstek.ureport.provider.image;
 import java.io.InputStream;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月6日
  */
 public interface ImageProvider {

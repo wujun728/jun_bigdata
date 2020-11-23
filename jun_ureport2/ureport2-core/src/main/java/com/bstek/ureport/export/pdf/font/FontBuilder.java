@@ -38,7 +38,7 @@ import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.pdf.BaseFont;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月22日
  */
 public class FontBuilder implements ApplicationContextAware{

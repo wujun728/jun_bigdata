@@ -6,7 +6,7 @@ package com.easytoolsoft.easyreport.mybatis.service;
  * @param <T> Po
  * @param <U> Example
  * @param <K> key字段数据类型(Integer,Long,String等)
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface CrudService<T, U, K> extends

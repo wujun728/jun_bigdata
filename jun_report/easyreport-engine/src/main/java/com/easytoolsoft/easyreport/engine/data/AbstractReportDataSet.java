@@ -17,7 +17,7 @@ import org.apache.commons.lang.StringUtils;
 /**
  * 抽象报表数据集类,包含生成报表所需的数据集，配置及元数据。
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public abstract class AbstractReportDataSet implements ReportDataSet {

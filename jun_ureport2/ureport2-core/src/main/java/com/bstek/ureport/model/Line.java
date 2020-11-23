@@ -21,7 +21,7 @@ import java.util.List;
 import com.bstek.ureport.definition.CellStyle;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public abstract class Line{

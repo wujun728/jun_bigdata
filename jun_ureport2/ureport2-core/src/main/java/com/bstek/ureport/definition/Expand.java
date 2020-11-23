@@ -18,7 +18,7 @@ package com.bstek.ureport.definition;
 import java.io.Serializable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public enum Expand implements Serializable{

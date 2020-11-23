@@ -39,7 +39,7 @@ import com.bstek.ureport.parser.ReportParser;
 import com.bstek.ureport.provider.report.ReportProvider;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public class ReportRender implements ApplicationContextAware{

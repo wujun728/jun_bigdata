@@ -16,7 +16,7 @@
 package com.bstek.ureport.definition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月16日
  */
 public enum Band {

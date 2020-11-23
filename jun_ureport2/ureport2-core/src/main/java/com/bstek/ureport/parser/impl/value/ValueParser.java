@@ -19,7 +19,7 @@ import com.bstek.ureport.definition.value.Value;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public abstract class ValueParser implements Parser<Value> {

@@ -18,7 +18,7 @@ package com.bstek.ureport.parser;
 import com.bstek.ureport.definition.CellDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月27日
  */
 public class BuildUtils {

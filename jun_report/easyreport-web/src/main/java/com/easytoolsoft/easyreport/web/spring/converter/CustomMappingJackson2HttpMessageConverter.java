@@ -11,7 +11,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 /**
  * JsonResult<T> 序列化输出转换类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Slf4j

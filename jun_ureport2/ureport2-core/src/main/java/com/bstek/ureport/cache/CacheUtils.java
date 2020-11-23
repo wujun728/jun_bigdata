@@ -26,7 +26,7 @@ import com.bstek.ureport.chart.ChartData;
 import com.bstek.ureport.definition.ReportDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月8日
  */
 public class CacheUtils implements ApplicationContextAware{

@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 /**
  * 用户操作事件或日志(easyreport_member_event表)持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

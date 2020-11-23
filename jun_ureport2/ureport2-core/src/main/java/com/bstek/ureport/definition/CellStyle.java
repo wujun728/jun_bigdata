@@ -25,7 +25,7 @@ import com.bstek.ureport.export.pdf.font.FontBuilder;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月18日
  */
 public class CellStyle implements Serializable{

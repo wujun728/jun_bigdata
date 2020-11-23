@@ -32,7 +32,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月25日
  */
 public class UReportServlet extends HttpServlet {

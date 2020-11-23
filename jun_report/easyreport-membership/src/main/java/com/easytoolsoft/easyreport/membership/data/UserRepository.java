@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 系统用户(easyreport_member_user表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("UserRepository")

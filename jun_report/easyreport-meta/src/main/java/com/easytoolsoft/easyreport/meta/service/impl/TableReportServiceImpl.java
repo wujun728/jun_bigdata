@@ -44,7 +44,7 @@ import org.springframework.stereotype.Service;
 /**
  * 报表生成服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("TableReportService")

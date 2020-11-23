@@ -59,7 +59,7 @@ import com.bstek.ureport.expression.model.data.ObjectListExpressionData;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class Cell implements ReportCell {

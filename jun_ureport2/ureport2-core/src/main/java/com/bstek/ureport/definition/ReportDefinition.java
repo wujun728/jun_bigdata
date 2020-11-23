@@ -35,7 +35,7 @@ import com.bstek.ureport.model.Report;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class ReportDefinition implements Serializable{

@@ -17,7 +17,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  **/
 @Slf4j

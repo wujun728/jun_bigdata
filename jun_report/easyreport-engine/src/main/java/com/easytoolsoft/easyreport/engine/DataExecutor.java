@@ -17,7 +17,7 @@ import com.easytoolsoft.easyreport.engine.query.QueryerFactory;
 /**
  * 数据执行器类，负责选择正确的报表查询器并获取数据，最终转化为成报表的数据集
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class DataExecutor {
     private final ReportParameter parameter;

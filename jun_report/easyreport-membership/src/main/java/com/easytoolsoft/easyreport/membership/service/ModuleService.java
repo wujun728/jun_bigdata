@@ -12,7 +12,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 系统模块服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface ModuleService extends CrudService<Module, ModuleExample, Integer> {

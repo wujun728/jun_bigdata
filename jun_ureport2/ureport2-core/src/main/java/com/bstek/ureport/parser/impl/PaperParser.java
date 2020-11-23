@@ -27,7 +27,7 @@ import com.bstek.ureport.definition.PaperType;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月19日
  */
 public class PaperParser implements Parser<Paper> {

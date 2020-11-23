@@ -16,7 +16,7 @@
 package com.bstek.ureport.definition.searchform;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年11月2日
  */
 public enum Align {

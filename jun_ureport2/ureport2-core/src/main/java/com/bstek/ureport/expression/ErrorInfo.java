@@ -15,7 +15,7 @@
  ******************************************************************************/
 package com.bstek.ureport.expression;
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年7月26日
  */
 public class ErrorInfo {

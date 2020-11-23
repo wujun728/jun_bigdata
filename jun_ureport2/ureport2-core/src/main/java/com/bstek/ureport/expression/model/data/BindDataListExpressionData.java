@@ -20,7 +20,7 @@ import java.util.List;
 import com.bstek.ureport.build.BindData;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月28日
  */
 public class BindDataListExpressionData implements ExpressionData<List<BindData>>{

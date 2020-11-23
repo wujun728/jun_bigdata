@@ -12,7 +12,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 系统角色服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface RoleService extends CrudService<Role, RoleExample, Integer> {

@@ -38,7 +38,7 @@ import com.itextpdf.text.pdf.PdfPageEventHelper;
 import com.itextpdf.text.pdf.PdfWriter;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月22日
  */
 public class PageHeaderFooterEvent extends PdfPageEventHelper {

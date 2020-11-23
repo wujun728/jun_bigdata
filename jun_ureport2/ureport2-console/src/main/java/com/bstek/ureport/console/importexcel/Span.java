@@ -16,7 +16,7 @@
 package com.bstek.ureport.console.importexcel;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年5月26日
  */
 public class Span {

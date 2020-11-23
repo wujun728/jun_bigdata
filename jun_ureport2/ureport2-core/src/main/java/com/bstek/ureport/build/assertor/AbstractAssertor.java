@@ -18,7 +18,7 @@ package com.bstek.ureport.build.assertor;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年9月15日
  */
 public abstract class AbstractAssertor implements Assertor{

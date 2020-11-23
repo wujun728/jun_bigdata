@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.data.ExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月22日
  */
 public class BothExpressionCondition extends BaseCondition {

@@ -20,7 +20,7 @@ import java.math.BigDecimal;
 import com.bstek.ureport.Utils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月25日
  */
 public class ArithUtils {

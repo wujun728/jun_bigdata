@@ -28,7 +28,7 @@ import com.bstek.ureport.definition.Scope;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月19日
  */
 public class CellStyleParser implements Parser<CellStyle> {

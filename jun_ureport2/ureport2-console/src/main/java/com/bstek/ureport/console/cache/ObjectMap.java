@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年9月6日
  */
 public class ObjectMap {

@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-08
  **/
 @Configuration

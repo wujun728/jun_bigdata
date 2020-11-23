@@ -49,7 +49,7 @@ import com.bstek.ureport.definition.RowDefinition;
 import com.bstek.ureport.definition.value.SimpleValue;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年5月27日
  */
 public class XSSFExcelParser extends ExcelParser {

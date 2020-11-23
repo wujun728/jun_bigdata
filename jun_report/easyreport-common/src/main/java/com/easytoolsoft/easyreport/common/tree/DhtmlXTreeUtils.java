@@ -10,7 +10,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * dhtmxTree(http://dhtmlx.com/docs/products/dhtmlxTree/)控件的工具类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class DhtmlXTreeUtils {
     public static DhtmlXTreeNode getRootNode(String id, List<DhtmlXTreeNode> nodes) {

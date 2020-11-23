@@ -11,7 +11,7 @@ import org.apache.commons.collections4.MapUtils;
  * Druid数据源连接池包装类
  * <a href="https://github.com/alibaba/druid/wiki>Druid</a>
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class DruidDataSourcePool implements DataSourcePoolWrapper {
     @Override

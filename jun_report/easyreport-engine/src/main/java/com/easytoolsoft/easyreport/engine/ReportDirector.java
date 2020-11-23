@@ -1,7 +1,7 @@
 package com.easytoolsoft.easyreport.engine;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportDirector {
     private ReportBuilder builder;

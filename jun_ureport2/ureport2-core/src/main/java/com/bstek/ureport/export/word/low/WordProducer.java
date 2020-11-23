@@ -18,7 +18,7 @@ package com.bstek.ureport.export.word.low;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2015年5月20日
  */
 public class WordProducer{/* implements Producer{

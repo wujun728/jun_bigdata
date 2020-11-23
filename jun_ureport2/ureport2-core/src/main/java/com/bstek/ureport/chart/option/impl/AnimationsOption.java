@@ -19,7 +19,7 @@ import com.bstek.ureport.chart.option.Easing;
 import com.bstek.ureport.chart.option.Option;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public class AnimationsOption implements Option {

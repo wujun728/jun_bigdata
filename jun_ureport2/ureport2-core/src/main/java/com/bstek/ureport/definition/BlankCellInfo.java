@@ -18,7 +18,7 @@ package com.bstek.ureport.definition;
 import java.io.Serializable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月26日
  */
 public class BlankCellInfo implements Serializable{

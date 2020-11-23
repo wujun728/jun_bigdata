@@ -16,7 +16,7 @@
 package com.bstek.ureport.expression.model;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月18日
  */
 public enum UnitType {

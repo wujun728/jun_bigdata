@@ -10,7 +10,7 @@ import org.apache.commons.dbcp2.BasicDataSource;
  * c3p0数据源连接池包装类
  * <a href="http://www.mchange.com/projects/c3p0/#quickstart>c3po</a>
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class DBCP2DataSourcePool implements DataSourcePoolWrapper {
     @Override

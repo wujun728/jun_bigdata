@@ -20,7 +20,7 @@ import java.util.List;
 import com.bstek.ureport.build.paging.Page;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月23日
  */
 public class FullPageData {

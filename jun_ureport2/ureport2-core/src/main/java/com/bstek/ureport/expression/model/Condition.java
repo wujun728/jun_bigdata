@@ -19,7 +19,7 @@ import com.bstek.ureport.build.Context;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月18日
  */
 public interface Condition {

@@ -10,10 +10,10 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */ /*
  * @see https://prestodb.io/docs/current/installation/jdbc.html
- *  @author tomdeng
+ *  @author Wujun
  */
 public class PrestoQueryer extends AbstractQueryer implements Queryer {
     public PrestoQueryer(ReportDataSource dataSource, ReportParameter parameter) {

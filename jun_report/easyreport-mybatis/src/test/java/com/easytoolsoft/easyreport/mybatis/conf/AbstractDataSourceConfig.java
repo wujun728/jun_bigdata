@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.support.TransactionTemplate;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-19
  **/
 public abstract class AbstractDataSourceConfig {

@@ -21,7 +21,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.CurrentCellDataExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年7月11日
  */
 public class CurrentCellDataExpressionBuilder implements ExpressionBuilder {

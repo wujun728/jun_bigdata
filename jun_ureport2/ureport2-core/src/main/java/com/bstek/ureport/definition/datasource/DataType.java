@@ -25,7 +25,7 @@ import com.bstek.ureport.Utils;
 import com.bstek.ureport.exception.ReportComputeException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public enum DataType {

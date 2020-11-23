@@ -39,7 +39,7 @@ import com.bstek.ureport.export.word.high.WordProducer;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月17日
  */
 public class ExportWordServletAction extends BaseServletAction {

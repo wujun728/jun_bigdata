@@ -47,7 +47,7 @@ import com.bstek.ureport.expression.model.expr.NumberExpression;
 import com.bstek.ureport.expression.model.expr.StringExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月26日
  */
 public abstract class BaseExpressionBuilder implements ExpressionBuilder{

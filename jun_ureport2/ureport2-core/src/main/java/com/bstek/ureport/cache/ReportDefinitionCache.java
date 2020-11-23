@@ -18,7 +18,7 @@ package com.bstek.ureport.cache;
 import com.bstek.ureport.definition.ReportDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public interface ReportDefinitionCache {

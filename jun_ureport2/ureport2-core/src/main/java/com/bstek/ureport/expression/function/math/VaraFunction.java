@@ -24,7 +24,7 @@ import com.bstek.ureport.model.Cell;
 
 /**
  * 求方差
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月23日
  */
 public class VaraFunction extends MathFunction {

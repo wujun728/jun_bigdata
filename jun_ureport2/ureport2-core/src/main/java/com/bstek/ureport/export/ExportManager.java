@@ -20,7 +20,7 @@ import java.util.Map;
 import com.bstek.ureport.export.html.HtmlReport;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public interface ExportManager {

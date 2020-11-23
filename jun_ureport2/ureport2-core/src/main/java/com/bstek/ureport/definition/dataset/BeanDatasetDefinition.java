@@ -23,7 +23,7 @@ import com.bstek.ureport.build.Dataset;
 import com.bstek.ureport.exception.ReportComputeException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public class BeanDatasetDefinition implements DatasetDefinition {

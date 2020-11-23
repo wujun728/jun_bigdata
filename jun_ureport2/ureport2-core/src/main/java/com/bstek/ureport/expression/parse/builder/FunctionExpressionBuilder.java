@@ -27,7 +27,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.FunctionExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月26日
  */
 public class FunctionExpressionBuilder extends BaseExpressionBuilder {

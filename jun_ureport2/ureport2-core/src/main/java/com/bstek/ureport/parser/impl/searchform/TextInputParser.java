@@ -21,7 +21,7 @@ import com.bstek.ureport.definition.searchform.LabelPosition;
 import com.bstek.ureport.definition.searchform.TextInputComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class TextInputParser implements FormParser<TextInputComponent> {

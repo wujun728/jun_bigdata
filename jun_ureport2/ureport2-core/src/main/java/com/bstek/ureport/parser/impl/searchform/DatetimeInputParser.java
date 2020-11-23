@@ -21,7 +21,7 @@ import com.bstek.ureport.definition.searchform.DateInputComponent;
 import com.bstek.ureport.definition.searchform.LabelPosition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class DatetimeInputParser implements FormParser<DateInputComponent> {

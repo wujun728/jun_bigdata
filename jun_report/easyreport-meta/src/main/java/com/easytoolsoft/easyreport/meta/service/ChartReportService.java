@@ -12,7 +12,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportDataSet;
 /**
  * 图表报表服务类
  *
- * @author Tom Deng
+ * @author Wujun
  */
 public interface ChartReportService {
     /**

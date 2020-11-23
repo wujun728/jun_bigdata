@@ -57,7 +57,7 @@ import com.bstek.ureport.export.html.SearchFormData;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月15日
  */
 public class HtmlPreviewServletAction extends RenderPageServletAction {

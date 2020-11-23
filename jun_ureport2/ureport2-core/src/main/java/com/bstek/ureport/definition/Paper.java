@@ -18,7 +18,7 @@ package com.bstek.ureport.definition;
 import java.io.Serializable;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月29日
  */
 public class Paper implements Serializable{

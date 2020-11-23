@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  * @see http://www.cloudera.com/documentation/enterprise/5-6-x/topics/impala_jdbc.html
  */
 public class ImpalaQueryer extends AbstractQueryer implements Queryer {

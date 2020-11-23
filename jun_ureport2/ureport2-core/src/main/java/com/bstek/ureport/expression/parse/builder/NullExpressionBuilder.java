@@ -20,7 +20,7 @@ import com.bstek.ureport.expression.model.expr.BaseExpression;
 import com.bstek.ureport.expression.model.expr.NullExpression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月25日
  */
 public class NullExpressionBuilder implements ExpressionBuilder {

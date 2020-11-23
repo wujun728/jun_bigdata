@@ -18,7 +18,7 @@ package com.bstek.ureport.expression.model.data;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月3日
  */
 public class ObjectListExpressionData implements ExpressionData<List<?>> {

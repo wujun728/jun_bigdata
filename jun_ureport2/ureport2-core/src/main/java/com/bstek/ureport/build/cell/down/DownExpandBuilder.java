@@ -29,7 +29,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class DownExpandBuilder extends ExpandBuilder {

@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.meta.form.control.HtmlTextBox;
 /**
  * Bootstrapper风格控件报表查询参数表单视图
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class BootstrapQueryFormView extends AbstractQueryParamFormView implements QueryParamFormView {

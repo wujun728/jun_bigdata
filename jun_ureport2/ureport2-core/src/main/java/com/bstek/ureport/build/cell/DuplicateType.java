@@ -16,7 +16,7 @@
 package com.bstek.ureport.build.cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月7日
  */
 public enum DuplicateType {

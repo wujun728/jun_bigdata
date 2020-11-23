@@ -42,7 +42,7 @@ import com.bstek.ureport.build.paging.HeaderFooter;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月17日
  */
 public class HeaderFooterBuilder {

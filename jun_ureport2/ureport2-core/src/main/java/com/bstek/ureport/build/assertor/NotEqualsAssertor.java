@@ -17,7 +17,7 @@ package com.bstek.ureport.build.assertor;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月12日
  */
 public class NotEqualsAssertor extends AbstractAssertor {

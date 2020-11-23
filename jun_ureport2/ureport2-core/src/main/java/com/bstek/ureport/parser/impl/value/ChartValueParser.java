@@ -49,7 +49,7 @@ import com.bstek.ureport.definition.value.Value;
 import com.bstek.ureport.exception.ReportParseException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月28日
  */
 public class ChartValueParser extends ValueParser {

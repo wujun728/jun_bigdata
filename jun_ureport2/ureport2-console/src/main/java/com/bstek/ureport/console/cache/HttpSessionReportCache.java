@@ -26,7 +26,7 @@ import com.bstek.ureport.cache.ReportCache;
 import com.bstek.ureport.console.RequestHolder;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月8日
  */
 public class HttpSessionReportCache implements ReportCache {

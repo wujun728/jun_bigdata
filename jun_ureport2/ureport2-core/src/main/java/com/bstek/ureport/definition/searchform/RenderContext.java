@@ -21,7 +21,7 @@ import java.util.Map;
 import com.bstek.ureport.build.Dataset;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月23日
  */
 public class RenderContext {

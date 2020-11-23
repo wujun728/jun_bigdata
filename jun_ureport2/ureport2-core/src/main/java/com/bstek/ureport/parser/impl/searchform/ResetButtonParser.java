@@ -20,7 +20,7 @@ import org.dom4j.Element;
 import com.bstek.ureport.definition.searchform.ResetButtonComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class ResetButtonParser implements FormParser<ResetButtonComponent>{

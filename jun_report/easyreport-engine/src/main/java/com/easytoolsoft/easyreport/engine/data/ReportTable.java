@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.engine.data;
 /**
  * 报表类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportTable {
     private final String htmlText;

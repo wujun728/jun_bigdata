@@ -28,7 +28,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.utils.DataUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public class ScatterDataset extends BaseDataset {

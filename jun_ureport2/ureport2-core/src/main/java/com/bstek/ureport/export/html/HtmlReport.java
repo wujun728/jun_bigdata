@@ -20,7 +20,7 @@ import java.util.Collection;
 import com.bstek.ureport.chart.ChartData;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月16日
  */
 public class HtmlReport {

@@ -20,7 +20,7 @@ import com.bstek.ureport.chart.axes.ScaleLabel;
 import com.bstek.ureport.chart.axes.XPosition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月14日
  */
 public class XAxes extends BaseAxes {

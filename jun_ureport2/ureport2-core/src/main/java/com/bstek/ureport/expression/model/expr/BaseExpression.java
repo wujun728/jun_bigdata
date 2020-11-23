@@ -25,7 +25,7 @@ import com.bstek.ureport.expression.model.data.ExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月18日
  */
 public abstract class BaseExpression implements Expression{

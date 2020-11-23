@@ -17,7 +17,7 @@ package com.bstek.ureport.definition.searchform;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年1月11日
  */
 public class DateInputComponent extends InputComponent {

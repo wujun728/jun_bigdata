@@ -23,7 +23,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.model.Column;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月25日
  */
 public class ColumnFunction implements Function{

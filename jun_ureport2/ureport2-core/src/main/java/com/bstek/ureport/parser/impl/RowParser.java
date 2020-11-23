@@ -23,7 +23,7 @@ import com.bstek.ureport.definition.RowDefinition;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月5日
  */
 public class RowParser implements Parser<RowDefinition> {

@@ -18,7 +18,7 @@ package com.bstek.ureport.definition.dataset;
 import com.bstek.ureport.definition.datasource.DataType;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public class Parameter {

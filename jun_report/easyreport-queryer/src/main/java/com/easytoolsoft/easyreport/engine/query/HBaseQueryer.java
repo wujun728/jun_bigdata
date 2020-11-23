@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  * @see http://phoenix.apache.org/index.html
  */
 public class HBaseQueryer extends AbstractQueryer implements Queryer {

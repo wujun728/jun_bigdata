@@ -29,7 +29,7 @@ import redis.clients.jedis.JedisPool;
 /**
  * <p>缓存池</p>
  * <p>Description:主要作用于JedisPool的实例化和提供获取当前池内缓存对象功能</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月11日-下午3:59:53
  */

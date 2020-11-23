@@ -8,7 +8,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class MySqlQueryer extends AbstractQueryer implements Queryer {
     public MySqlQueryer(final ReportDataSource dataSource, final ReportParameter parameter) {

@@ -24,7 +24,7 @@ import org.springframework.stereotype.Service;
 /**
  * 用户权限服务外观类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("MembershipFacadeService")

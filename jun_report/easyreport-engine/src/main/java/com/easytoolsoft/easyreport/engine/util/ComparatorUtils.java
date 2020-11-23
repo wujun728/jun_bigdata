@@ -1,7 +1,7 @@
 package com.easytoolsoft.easyreport.engine.util;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public class ComparatorUtils {
 

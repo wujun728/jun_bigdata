@@ -20,7 +20,7 @@ import java.io.Serializable;
 import com.bstek.ureport.exception.ReportComputeException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2014年4月23日
  */
 public enum PaperType implements Serializable{

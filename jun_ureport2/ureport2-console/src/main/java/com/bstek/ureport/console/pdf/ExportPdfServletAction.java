@@ -42,7 +42,7 @@ import com.bstek.ureport.export.pdf.PdfProducer;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月20日
  */
 public class ExportPdfServletAction extends BaseServletAction{

@@ -15,7 +15,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface ReportService extends CrudService<Report, ReportExample, Integer> {

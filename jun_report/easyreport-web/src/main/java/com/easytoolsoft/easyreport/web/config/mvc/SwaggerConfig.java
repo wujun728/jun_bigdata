@@ -12,7 +12,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-20
  * @see <a href="http://springfox.github.io/springfox/docs/current/#getting-started">swagger</a>
  **/

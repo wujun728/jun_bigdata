@@ -15,7 +15,7 @@ import com.easytoolsoft.easyreport.support.consts.AppEnvConsts;
 /**
  * ServletContext 初始化数据 Filter
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class ContextInitDataFilter implements Filter {

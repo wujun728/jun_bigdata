@@ -37,7 +37,7 @@ import com.bstek.ureport.utils.ProcedureUtils;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月27日
  */
 public class SqlDatasetDefinition implements DatasetDefinition {

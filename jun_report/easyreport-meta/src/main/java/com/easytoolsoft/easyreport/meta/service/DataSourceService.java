@@ -7,7 +7,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表数据源服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface DataSourceService extends CrudService<DataSource, DataSourceExample, Integer> {

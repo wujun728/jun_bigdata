@@ -37,7 +37,7 @@ import java.util.Stack;
 import com.bstek.ureport.Utils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2018年6月28日
  */
 public class ElCompute {

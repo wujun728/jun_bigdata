@@ -66,7 +66,7 @@ import com.bstek.ureport.expression.model.expr.ifelse.IfExpression;
 import com.bstek.ureport.expression.parse.builder.ExpressionBuilder;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月18日
  */
 public class ExpressionVisitor extends ReportParserBaseVisitor<Expression>{

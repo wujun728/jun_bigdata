@@ -17,7 +17,7 @@ import com.easytoolsoft.easyreport.meta.form.control.HtmlFormElement;
 /**
  * 表格报表生成服务类,包括报表生成,转换,报表数据集处理等
  *
- * @author Tom Deng
+ * @author Wujun
  */
 public interface TableReportService {
     /**

@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Param;
 
 /**
  * @param <T>
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface InsertRepository<T> {

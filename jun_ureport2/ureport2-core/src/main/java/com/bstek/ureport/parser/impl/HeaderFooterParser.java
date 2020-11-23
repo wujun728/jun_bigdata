@@ -24,7 +24,7 @@ import com.bstek.ureport.expression.model.Expression;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月14日
  */
 public class HeaderFooterParser implements Parser<HeaderFooterDefinition> {

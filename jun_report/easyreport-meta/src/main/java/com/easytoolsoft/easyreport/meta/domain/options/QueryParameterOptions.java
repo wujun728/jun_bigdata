@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 /**
  * 报表查询参数类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class QueryParameterOptions implements Serializable {

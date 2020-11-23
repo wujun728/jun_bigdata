@@ -43,7 +43,7 @@ import com.bstek.ureport.exception.ReportComputeException;
 import com.bstek.ureport.utils.UnitUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月17日
  */
 public class SlashBuilder {

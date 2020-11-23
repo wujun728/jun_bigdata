@@ -7,7 +7,7 @@ import com.bstek.ureport.expression.model.data.ExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年12月7日
  */
 public class ParameterIsEmptyFunction extends ParameterFunction{

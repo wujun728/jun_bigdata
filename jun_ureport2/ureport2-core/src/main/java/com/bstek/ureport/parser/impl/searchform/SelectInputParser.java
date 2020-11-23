@@ -26,7 +26,7 @@ import com.bstek.ureport.definition.searchform.Option;
 import com.bstek.ureport.definition.searchform.SelectInputComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月30日
  */
 public class SelectInputParser implements FormParser<SelectInputComponent> {

@@ -31,7 +31,7 @@ import com.bstek.ureport.model.Column;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月1日
  */
 public class CellExpression extends BaseExpression {

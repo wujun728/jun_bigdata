@@ -18,7 +18,7 @@ package com.bstek.ureport.build;
 import java.util.List;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class Dataset {

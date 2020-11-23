@@ -28,7 +28,7 @@ import org.apache.velocity.VelocityContext;
 import com.bstek.ureport.console.RenderPageServletAction;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class SearchFormDesignerAction extends RenderPageServletAction {

@@ -22,7 +22,7 @@ import com.bstek.ureport.build.Context;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public class PolarDataset extends CategoryDataset {

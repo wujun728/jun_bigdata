@@ -9,7 +9,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportQueryParamItem;
 /**
  * 报表查询器接口
  *
- * @author tomdeng
+ * @author Wujun
  */
 public interface Queryer {
     /**

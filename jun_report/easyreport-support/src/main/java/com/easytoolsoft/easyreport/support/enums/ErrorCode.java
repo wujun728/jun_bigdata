@@ -1,7 +1,7 @@
 package com.easytoolsoft.easyreport.support.enums;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-26
  **/
 public interface ErrorCode {

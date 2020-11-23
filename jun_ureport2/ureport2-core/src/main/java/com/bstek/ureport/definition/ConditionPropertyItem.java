@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.Condition;
 import com.bstek.ureport.expression.model.Expression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月10日
  */
 public class ConditionPropertyItem {

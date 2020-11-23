@@ -7,7 +7,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author srp
+ * @author Wujun
  * 
  */
 public class Message {

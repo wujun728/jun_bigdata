@@ -24,7 +24,7 @@ import com.bstek.ureport.definition.CellDefinition;
 import com.bstek.ureport.parser.BuildUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年2月24日
  */
 public class DownCellbuilder {

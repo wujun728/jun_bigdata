@@ -18,7 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @param <Model>
  * @param <Example>
  * @param <Type>
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Slf4j

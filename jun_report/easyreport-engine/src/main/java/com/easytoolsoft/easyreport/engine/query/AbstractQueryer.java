@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tomdeng
+ * @author Wujun
  */
 public abstract class AbstractQueryer {
     protected final Logger logger = LoggerFactory.getLogger(this.getClass());

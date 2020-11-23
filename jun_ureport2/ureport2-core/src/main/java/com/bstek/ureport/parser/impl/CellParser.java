@@ -43,7 +43,7 @@ import com.bstek.ureport.parser.impl.value.SlashValueParser;
 import com.bstek.ureport.parser.impl.value.ZxingValueParser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月5日
  */
 public class CellParser implements Parser<CellDefinition>{

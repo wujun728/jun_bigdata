@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Param;
 /**
  * @param <T> Po
  * @param <U> Example
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface UpdateRepository<T, U> {

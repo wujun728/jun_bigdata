@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 报表参数类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportParameter {
     private String id;

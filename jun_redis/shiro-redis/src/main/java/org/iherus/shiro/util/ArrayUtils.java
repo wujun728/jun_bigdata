@@ -20,7 +20,7 @@ import java.lang.reflect.Array;
 /**
  * <p>数组工具类</p>
  * <p>Description:提供常用的数组克隆、数组合并和截取子数组等功能</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月12日-下午8:30:59
  */

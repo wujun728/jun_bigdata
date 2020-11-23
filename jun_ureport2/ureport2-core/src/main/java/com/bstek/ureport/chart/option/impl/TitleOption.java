@@ -20,7 +20,7 @@ import com.bstek.ureport.chart.option.Option;
 import com.bstek.ureport.chart.option.Position;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月8日
  */
 public class TitleOption implements Option {

@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月17日
  */
 public class ResourceCache {

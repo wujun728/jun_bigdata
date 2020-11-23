@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 报表计算列表达式求值工具类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class AviatorExprUtils {
     private static final Logger logger = LoggerFactory.getLogger(AviatorExprUtils.class);

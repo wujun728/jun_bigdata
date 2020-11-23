@@ -32,7 +32,7 @@ import com.bstek.ureport.console.ServletAction;
 import com.bstek.ureport.console.UReportServlet;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年6月6日
  */
 public class ResourceLoaderServletAction implements ServletAction,ApplicationContextAware{

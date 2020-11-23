@@ -25,7 +25,7 @@ import com.bstek.ureport.model.Column;
 import com.bstek.ureport.model.Row;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月2日
  */
 public class RightBlankCellApply {

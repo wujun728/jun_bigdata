@@ -22,7 +22,7 @@ import org.apache.commons.lang.StringUtils;
 import com.bstek.ureport.Utils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月12日
  */
 public class LessThenAssertor extends AbstractAssertor{

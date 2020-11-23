@@ -30,7 +30,7 @@ import com.bstek.ureport.model.Cell;
 import com.bstek.ureport.utils.DataUtils;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月29日
  */
 public class CustomGroupAggregate extends Aggregate {

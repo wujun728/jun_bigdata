@@ -21,7 +21,7 @@ import com.bstek.ureport.definition.value.SimpleValue;
 import com.bstek.ureport.definition.value.Value;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public class SimpleValueParser extends ValueParser {

@@ -18,7 +18,7 @@ package com.bstek.ureport.chart.axes;
 import com.bstek.ureport.chart.FontStyle;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月14日
  */
 public class ScaleLabel {

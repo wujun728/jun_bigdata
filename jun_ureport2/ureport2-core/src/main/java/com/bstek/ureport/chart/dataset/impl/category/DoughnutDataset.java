@@ -17,7 +17,7 @@ package com.bstek.ureport.chart.dataset.impl.category;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月9日
  */
 public class DoughnutDataset extends PieDataset {

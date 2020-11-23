@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.engine.data;
 /**
  * 报表元数据列类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportMetaDataColumn {
     private int ordinal;

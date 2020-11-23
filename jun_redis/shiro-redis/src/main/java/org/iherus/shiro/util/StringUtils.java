@@ -18,7 +18,7 @@ package org.iherus.shiro.util;
 /**
  * <p>字符串工具类</p>
  * <p>Description:提供空值判断、字符串截取和获取字符串长度等功能.</p>
- * @author Bosco.Liao
+ * @author Wujun
  * @version 1.0.0
  * @date 2016年4月10日-下午11:20:04
  */

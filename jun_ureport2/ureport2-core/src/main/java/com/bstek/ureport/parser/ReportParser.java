@@ -46,7 +46,7 @@ import com.bstek.ureport.parser.impl.RowParser;
 import com.bstek.ureport.parser.impl.searchform.SearchFormParser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月2日
  */
 public class ReportParser {

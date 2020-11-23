@@ -20,7 +20,7 @@ import java.io.Serializable;
 import com.bstek.ureport.expression.model.Expression;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月31日
  */
 public class LinkParameter implements Serializable{

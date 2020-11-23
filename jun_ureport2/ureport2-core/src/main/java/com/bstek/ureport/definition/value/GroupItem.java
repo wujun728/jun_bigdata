@@ -22,7 +22,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import com.bstek.ureport.expression.model.Condition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月28日
  */
 public class GroupItem {

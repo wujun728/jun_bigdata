@@ -21,7 +21,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import com.bstek.ureport.definition.ReportDefinition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月4日
  */
 public class DefaultMemoryReportDefinitionCache implements ReportDefinitionCache {

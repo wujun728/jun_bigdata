@@ -17,7 +17,7 @@ package com.bstek.ureport.definition.value;
 
 /**
  * 普通字符串，或者是表达式
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class SimpleValue implements Value{

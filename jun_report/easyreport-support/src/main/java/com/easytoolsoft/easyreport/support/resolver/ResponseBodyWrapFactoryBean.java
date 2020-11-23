@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 import org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-04-26
  **/
 public class ResponseBodyWrapFactoryBean implements InitializingBean {

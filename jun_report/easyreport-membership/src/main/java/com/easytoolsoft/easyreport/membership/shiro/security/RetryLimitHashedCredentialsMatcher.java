@@ -12,7 +12,7 @@ import org.apache.shiro.cache.CacheManager;
 /**
  * 用户登录重试凭证限制
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher {

@@ -18,7 +18,7 @@ package com.bstek.ureport.expression.model;
 import com.bstek.ureport.exception.ReportParseException;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月22日
  */
 public enum Op {

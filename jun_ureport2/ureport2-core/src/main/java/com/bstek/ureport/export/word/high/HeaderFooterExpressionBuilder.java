@@ -19,7 +19,7 @@ import com.bstek.ureport.build.Context;
 import com.bstek.ureport.build.paging.HeaderFooter;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月17日
  */
 public class HeaderFooterExpressionBuilder {

@@ -22,7 +22,7 @@ import com.bstek.ureport.export.excel.high.builder.ExcelBuilderWithPaging;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月30日
  */
 public class ExcelProducer {

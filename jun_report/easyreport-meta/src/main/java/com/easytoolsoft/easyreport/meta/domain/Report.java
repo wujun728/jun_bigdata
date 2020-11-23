@@ -13,7 +13,7 @@ import lombok.ToString;
 /**
  * 报表(_rpt_report表)持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

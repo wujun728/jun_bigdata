@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 报表元数据集类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ReportMetaDataSet {
     private final List<ReportMetaDataRow> rows;

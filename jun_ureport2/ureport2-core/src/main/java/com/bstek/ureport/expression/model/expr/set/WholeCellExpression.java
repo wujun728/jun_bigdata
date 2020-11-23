@@ -26,7 +26,7 @@ import com.bstek.ureport.expression.model.data.ObjectListExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月6日
  */
 public class WholeCellExpression extends CellExpression{

@@ -14,7 +14,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 /**
  * 横向展示统计列的报表生成类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class HorizontalStatColumnReportBuilder extends AbstractReportBuilder implements ReportBuilder {
 

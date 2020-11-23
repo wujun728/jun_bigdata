@@ -16,7 +16,7 @@
 package com.bstek.ureport.expression.model.condition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月1日
  */
 public enum Join {

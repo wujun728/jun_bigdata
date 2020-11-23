@@ -39,7 +39,7 @@ import com.bstek.ureport.model.Row;
 import com.bstek.ureport.utils.ElCompute;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class Context {

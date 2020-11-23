@@ -10,7 +10,7 @@ import com.easytoolsoft.easyreport.engine.data.ReportParameter;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author tomdeng
+ * @author Wujun
  * @see https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients
  */
 public class HiveQueryer extends AbstractQueryer implements Queryer {

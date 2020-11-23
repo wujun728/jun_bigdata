@@ -19,7 +19,7 @@ import com.easytoolsoft.easyreport.meta.service.ChartReportService;
 import org.springframework.stereotype.Service;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Service("ChartReportService")

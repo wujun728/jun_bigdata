@@ -6,7 +6,7 @@ import com.easytoolsoft.easyreport.mybatis.sharding.ShardTable;
 
 /**
  * @param <T> Po
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface AddService<T> {

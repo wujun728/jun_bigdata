@@ -22,7 +22,7 @@ import com.bstek.ureport.expression.model.data.ExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年4月17日
  */
 public class PageTotalFunction extends PageFunction{

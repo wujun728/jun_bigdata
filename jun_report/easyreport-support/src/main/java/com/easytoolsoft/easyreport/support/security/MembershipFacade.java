@@ -6,7 +6,7 @@ import java.util.Set;
  * 用户权限服务外观接口
  *
  * @param <User> 用户信息对象
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface MembershipFacade<User> {

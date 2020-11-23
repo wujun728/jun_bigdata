@@ -25,7 +25,7 @@ import com.bstek.ureport.definition.searchform.Option;
 import com.bstek.ureport.definition.searchform.RadioInputComponent;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年10月24日
  */
 public class RadioInputParser implements FormParser<RadioInputComponent> {

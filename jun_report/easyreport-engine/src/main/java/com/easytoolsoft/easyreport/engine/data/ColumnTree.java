@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * 报表列树型结构类
  *
- * @author tomdeng
+ * @author Wujun
  */
 public class ColumnTree {
     private final List<ColumnTreeNode> roots;

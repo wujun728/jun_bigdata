@@ -32,7 +32,7 @@ import com.bstek.ureport.exception.ReportException;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public class DataCompute {

@@ -7,7 +7,7 @@ import com.easytoolsoft.easyreport.mybatis.service.CrudService;
 /**
  * 报表调度任务服务类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface TaskService extends CrudService<Task, TaskExample, Integer> {

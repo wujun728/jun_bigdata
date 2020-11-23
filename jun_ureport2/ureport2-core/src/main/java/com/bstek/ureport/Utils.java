@@ -39,7 +39,7 @@ import com.bstek.ureport.provider.image.ImageProvider;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月12日
  */
 public class Utils implements ApplicationContextAware{

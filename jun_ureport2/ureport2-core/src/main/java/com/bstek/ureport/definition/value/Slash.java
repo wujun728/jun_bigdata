@@ -16,7 +16,7 @@
 package com.bstek.ureport.definition.value;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月14日
  */
 public class Slash {

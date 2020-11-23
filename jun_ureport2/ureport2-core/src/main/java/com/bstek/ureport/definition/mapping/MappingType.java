@@ -16,7 +16,7 @@
 package com.bstek.ureport.definition.mapping;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年9月13日
  */
 public enum MappingType {

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 报表任务(_rpt_task表)数据访问类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Repository("TaskRepository")

@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.support.consts;
 /**
  * 用户鉴权相关常量
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-28
  **/
 public class UserAuthConsts {

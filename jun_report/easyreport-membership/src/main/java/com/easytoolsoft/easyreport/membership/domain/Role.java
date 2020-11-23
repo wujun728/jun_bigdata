@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 /**
  * 系统角色(easyreport_member_role表)持久化类
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 @Data

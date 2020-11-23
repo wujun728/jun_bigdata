@@ -22,7 +22,7 @@ import com.bstek.ureport.definition.PagingPosition;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年6月21日
  */
 public class ConditionPagingParser implements Parser<ConditionPaging> {

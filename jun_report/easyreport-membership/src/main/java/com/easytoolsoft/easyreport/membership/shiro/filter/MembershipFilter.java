@@ -13,7 +13,7 @@ import org.apache.shiro.web.filter.PathMatchingFilter;
 /**
  * 自定义的Shiro Filter,用于处理用户是否登录
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public class MembershipFilter extends PathMatchingFilter {

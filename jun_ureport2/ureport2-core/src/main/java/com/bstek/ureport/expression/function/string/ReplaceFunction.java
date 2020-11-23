@@ -24,7 +24,7 @@ import com.bstek.ureport.expression.model.data.ObjectExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月24日
  */
 public class ReplaceFunction extends StringFunction {

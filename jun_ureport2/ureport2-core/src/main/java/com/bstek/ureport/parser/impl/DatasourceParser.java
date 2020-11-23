@@ -35,7 +35,7 @@ import com.bstek.ureport.expression.model.Expression;
 import com.bstek.ureport.parser.Parser;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月30日
  */
 public class DatasourceParser implements Parser<DatasourceDefinition> {

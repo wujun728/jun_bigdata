@@ -20,7 +20,7 @@ import java.util.List;
 import com.bstek.ureport.model.Column;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月1日
  */
 public class ColumnDefinition implements Comparable<ColumnDefinition>{

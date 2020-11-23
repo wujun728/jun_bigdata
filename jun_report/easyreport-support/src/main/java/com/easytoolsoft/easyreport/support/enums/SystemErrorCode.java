@@ -3,7 +3,7 @@ package com.easytoolsoft.easyreport.support.enums;
 import com.easytoolsoft.easyreport.support.i18n.LocaleUtils;
 
 /**
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-05-26
  **/
 public enum SystemErrorCode implements ErrorCode {

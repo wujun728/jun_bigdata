@@ -23,7 +23,7 @@ import com.bstek.ureport.definition.Paper;
 import com.bstek.ureport.model.Report;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月23日
  */
 public class PageBuilder {

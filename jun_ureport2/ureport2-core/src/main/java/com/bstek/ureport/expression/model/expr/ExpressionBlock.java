@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.data.ExpressionData;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2018年7月13日
  */
 public class ExpressionBlock extends BaseExpression{

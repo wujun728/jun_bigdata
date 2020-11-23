@@ -26,7 +26,7 @@ import com.bstek.ureport.console.RequestHolder;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年9月6日
  */
 public class TempObjectCache{

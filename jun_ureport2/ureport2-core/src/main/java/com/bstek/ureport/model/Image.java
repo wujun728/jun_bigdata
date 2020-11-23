@@ -17,7 +17,7 @@ package com.bstek.ureport.model;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月24日
  */
 public class Image {

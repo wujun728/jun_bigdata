@@ -16,7 +16,7 @@
 package com.bstek.ureport.exception;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月6日
  */
 public class ExpressionParserException extends ReportException {

@@ -35,7 +35,7 @@ import com.bstek.ureport.expression.model.condition.Join;
 import com.bstek.ureport.expression.model.condition.PropertyExpressionCondition;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年12月21日
  */
 public class DatasetValueParser extends ValueParser {

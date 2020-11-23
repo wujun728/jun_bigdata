@@ -21,7 +21,7 @@ import com.bstek.ureport.expression.model.Operator;
 
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2016年11月18日
  */
 public class ParenExpression extends JoinExpression {

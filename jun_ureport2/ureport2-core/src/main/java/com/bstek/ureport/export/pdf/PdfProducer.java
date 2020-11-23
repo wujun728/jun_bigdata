@@ -51,7 +51,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年3月10日
  */
 public class PdfProducer implements Producer {

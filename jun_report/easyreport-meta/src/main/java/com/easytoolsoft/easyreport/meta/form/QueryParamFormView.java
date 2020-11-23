@@ -9,7 +9,7 @@ import com.easytoolsoft.easyreport.meta.form.control.HtmlFormElement;
 /**
  * 报表的查询参数表单视图接口
  *
- * @author Tom Deng
+ * @author Wujun
  * @date 2017-03-25
  */
 public interface QueryParamFormView {

@@ -23,7 +23,7 @@ import com.bstek.ureport.expression.model.expr.dataset.DatasetExpression;
 import com.bstek.ureport.model.Cell;
 
 /**
- * @author Jacky.gao
+ * @author Wujun
  * @since 2017年1月20日
  */
 public class RegroupAggregate extends GroupAggregate {
