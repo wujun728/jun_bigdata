@@ -63,7 +63,7 @@
         <velocity.version>1.7</velocity.version>
         <quartz.version>2.2.3</quartz.version>
         <netty-all.version>4.1.6.Final</netty-all.version>
-        <poi.version>3.15</poi.version>
+        <poi.version>4.1.1</poi.version>
         <aviator.version>2.3.3</aviator.version>
         <!-- swagger -->
         <swagger-ui.version>3.0.5</swagger-ui.version>
