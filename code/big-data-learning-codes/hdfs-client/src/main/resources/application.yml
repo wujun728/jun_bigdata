@@ -1,0 +1,20 @@
+# Server settings
+server:
+  port: 3000 # 端口
+
+# HDFS 相关配置
+hadoop:
+  # NameNode的地址
+  name-node: hdfs://hadoop02:9000
+  # Hadoop操作的用户名
+  username: hadoop
+  # 文件夹路径
+  namespace: /hadoop
+
+########################################## logback日志配置 #####################################################
+logging:
+  # 使用的logback文件
+  config: classpath:logback.xml
+  file:
+    # 生成的日志文件路径
+    path: F:\workspace\bigdata\hadoop\hdfs-client\logs

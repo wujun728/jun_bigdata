@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+# HDFS 相关配置
+hadoop:
+  # NameNode的地址
+  name-node: hdfs://hadoop02:9000
+  # Hadoop操作的用户名
+  username: hadoop
+  # 文件夹路径
+  namespace: /hadoop

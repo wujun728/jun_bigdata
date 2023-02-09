@@ -1,0 +1,10 @@
+1.hbase的机群搭建过程(在原来的hadoop0上的hbase伪分布基础上进行搭建)
+1.1 集群结构，主节点(hmaster)是hadoop0，从节点(region server)是hadoop1和hadoop2
+1.2 修改hadoop0上的hbase的几个文件
+    (1)修改hbase-env.sh的最后一行export HBASE_MANAGES_ZK=false
+	(2)修改hbase-site.xml文件的hbase.zookeeper.quorum的值为hadoop0,hadoop1,hadoop2
+	(3)修改regionservers文件(存放的region server的hostname)，内容修改为hadoop1、hadoop2
+1.3 复制hadoop0中的hbase文件夹到hadoop1、hadoop2中	
+    复制hadoop0中的/etc/profile到hadoop1、hadoop2中，在hadoop1、hadoop2上执行source /etc/profile
+1.4 首先启动hadoop，然后启动zookeeper集群。
+    最后在hadoop0上启动hbase集群。

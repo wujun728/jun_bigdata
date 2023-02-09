@@ -1,0 +1,19 @@
+1.ZooKeeper
+	1.1 zk可以用来保证数据在zk集群之间的数据的事务性一致。
+2.如何搭建ZooKeeper服务器集群
+	2.1 zk服务器集群规模不小于3个节点，要求各服务器之间系统时间要保持一致。
+	2.2 在hadoop0的/usr/local目录下，解压缩zk....tar.gz，设置环境变量
+	2.3 在conf目录下，修改文件 vi zoo_sample.cfg  zoo.cfg
+	2.4 编辑该文件，执行vi zoo.cfg
+		修改dataDir=/usr/local/zk/data
+		新增server.0=hadoop0:2888:3888
+		    server.1=hadoop1:2888:3888
+			server.2=hadoop2:2888:3888
+	2.5 创建文件夹mkdir /usr/local/zk/data
+	2.6 在data目录下，创建文件myid，值为0
+	2.7 把zk目录复制到hadoop1和hadoop2中
+	2.8 把hadoop1中相应的myid的值改为1
+	    把hadoop2中相应的myid的值改为2
+	2.9 启动，在三个节点上分别执行命令zkServer.sh start
+	2.10 检验，在三个节点上分别执行命令zkServer.sh status
+	

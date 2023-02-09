@@ -1,0 +1,25 @@
+1.hadoop的分布式安装过程
+	1.1 分布结构	主节点(1个,是hadoop0):NameNode、JobTracker、SecondaryNameNode
+					从节点(2个,是hadoop1、hadoop2):DataNode、TaskTracker
+	1.2 各节点重新产生ssh加密文件
+	1.3 编辑各个节点的/etc/hosts，在该文件中含有所有节点的ip与hostname的映射信息
+	1.4 两两节点之间的SSH免密码登陆
+			ssh-copy-id -i  hadoop1
+			scp /root/.ssh/authorized_keys   hadoop1:/root/.ssh/ 
+	1.5 把hadoop0的hadoop目录下的logs和tmp删除
+	1.6 把hadoop0中的jdk、hadoop文件夹复制到hadoop1和hadoop2节点
+			scp  -r /usr/local/jdk   hadoop1:/usr/local/
+	1.7 把hadoop0的/etc/profile复制到hadoop1和hadoop2节点，在目标节点中执行source  /etc/profile
+	1.8 编辑hadoop0的配置文件slaves，改为从节点的hostname，分别是hadoop1和hadoop2
+	1.9 格式化，在hadoop0节点执行hadoop namenode -format
+	1.10 启动，在hadoop0节点执行start-all.sh
+	****注意：对于配置文件core-site.xml和mapred-site.xml在所有节点中都是相同的内容。
+2.动态的增加一个hadoop节点
+	2.1 配置新节点的环境
+	2.2 把新节点的hostname配置到主节点的slaves文件中
+	2.3 在新节点，启动进程
+			hadoop-daemon.sh start datanode
+			hadoop-daemon.sh start tasktracker
+	2.4 在主节点执行脚本 hadoop dfsadmin -refreshNodes
+3.动态的下架一个hadoop节点
+	 

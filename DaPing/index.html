@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+<title>消息百分百</title>
+
+<!--公共样式-->
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css?v=2"/>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script type="text/javascript" src="js/echarts-theme.js"></script>
+<script type="text/javascript" src="js/index.js?v=2"></script>
+
+</head>
+
+<body>
+	<div class="top z3">
+        <a class="link-admin link z2" href="admin-1.html" target="_blank">配置管理>></a>
+        <p class="top-title z1">ERP消息准确性保障系统</p>
+    </div>
+    
+    <div class="bg-wrap z1 ">
+        <div class="bg zhuanquan a-time300 a-yj"></div>
+    </div>
+
+    <div class="container z3">
+        <div class="cell cell1">
+            <div class="cell-tilte z2">处理业务异常分布 <a class="link" href="#">导出明细</a></div>
+
+            <div class="z3 of search-wrap">
+                <div class="search-cell">
+                    公司名称：
+                    <select class="select" id="js-select">
+                        <option value="保利公馆">保利公馆</option>
+                        <option value="2">3321</option>
+                        <option value="3">3321</option>
+                        <option value="4">3321</option>
+                    </select>
+                </div>
+                <div class="search-cell">
+                    范围：
+                    <span type="30" class="search-item on">近1月</span>
+                    <span type="90" class="search-item">近90天</span>
+                    <span type="180" class="search-item">近180天</span>
+                </div>
+            </div>
+
+            <div class="my-chart z1" id="chart-1" style="left: 6px;right: 20px;top: 30px;"></div>
+
+        </div>
+
+        <div class="line a-yj a-time4" style="left: 28%;"></div>
+
+        <div class="cell cell2">
+            <div class="of zongshu-wrap">
+                <div class="title-sub of">监听总客户数</div>
+                <div class="num-wrap of">
+                    <span class="num">8</span>
+                    <span class="num">8</span>
+                    <span class="num">8</span>
+                    <span class="num">8</span>
+                    <span class="danwei">家</span>
+                </div>
+                <div class="num-tip">保障前准确率58%</div>
+            </div>
+            <div class="my-chart" id="chart-2"></div>    
+        </div>
+
+        <div class="cell cell3">
+            <div class="cell-tilte cell-tilte-ss z2">实时消息统计</div>
+
+            <div class="my-chart z1" id="chart-1" style="left: 6px;right: 20px;top: 0;">
+                <div class="message-wrap">
+                    <div class="cell-m cell-lt"></div>
+                    <div class="cell-m cell-rt2"></div>
+                    <div class="cell-m cell-rt"></div>
+                    <div class="cell-m cell-rb"></div>
+                    <div class="cell-m cell-lb"></div>
+                    <div class="cell-m cell-ll"></div>
+                    <div class="cell-m cell-rr"></div>
+                    <div class="cell-m cell-bb"></div>
+                </div>
+                <div class="messagelist-wrap of" id="vue-messagelist">
+                    <div class="messagelist-wrap-p of">
+                        <ul class="messagelist a-time003" v-bind:style="{transform: `translate(0, ${-messageTop}px`}">
+                            <li v-for="message in data" v-html="message"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cell cell1">
+            <div class="cell-tilte">消息异常分布 <a class="link" href="#">导出明细</a></div>
+
+            <div class="my-chart" id="chart-3" style="left: 6px;right: 20px;top: 30px;"></div>
+        </div>
+        <div class="cell cell-max">
+            <div class="cell-tilte">客户消息异常准确性处理Top20 <a class="link" href="#">导出明细</a></div>
+            
+            <div class="max-wrap">
+                <div class="my-chart" id="chart-4" style="left: 6px;right: 20px;top: 30px;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

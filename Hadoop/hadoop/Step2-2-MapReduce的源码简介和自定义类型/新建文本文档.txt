@@ -1,0 +1,28 @@
+问：在eclipse中的写的代码如何提交作业到JobTracker中的哪？
+答：(1)在eclipse中调用的job.waitForCompletion(true)实际上执行如下方法
+	    connect();
+		info = jobClient.submitJobInternal(conf);
+	(2)在connect()方法中，实际上创建了一个JobClient对象。
+	   在调用该对象的构造方法时，获得了JobTracker的客户端代理对象JobSubmissionProtocol。
+	   JobSubmissionProtocol的实现类是JobTracker。
+	(3)在jobClient.submitJobInternal(conf)方法中，调用了
+		JobSubmissionProtocol.submitJob(...),
+		即执行的是JobTracker.submitJob(...)。
+1.Hadoop的数据类型要求必须实现Writable接口。
+2.java基本类型与Hadoop常见基本类型的对照
+	Long	LongWritable
+	Integer	IntWritable
+	Boolean	BooleanWritable
+	String	Text
+	问：java类型如何转化为hadoop基本类型？
+	答：调用hadoop类型的构造方法，或者调用set()方法。
+		new LongWritable(123L);
+	问：hadoop基本类型如何转化为java类型？
+	答：对于Text，需要调用toString()方法，其他类型调用get()方法。
+-------------------------------------
+作业：
+1.如果使用IdentityMapper、IdentityReducer作为自定义的MR类，
+  如果输入文件是hello文件。问：输出内容是什么？
+2.用真实数据计算手机流量。
+  
+	   

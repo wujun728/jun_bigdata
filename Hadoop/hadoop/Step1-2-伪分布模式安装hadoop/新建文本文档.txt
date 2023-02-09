@@ -1,0 +1,47 @@
+﻿1.hadoop的伪分布安装
+1.1 设置ip地址
+	执行命令	service network restart
+	验证:	ifconfig
+1.2 关闭防火墙
+	执行命令	service iptables stop
+	验证:		service iptables status
+1.3	关闭防火墙的自动运行
+	执行命令	chkconfig iptables off
+	验证:		chkconfig --list | grep iptables
+1.4 设置主机名
+	执行命令	(1)hostname chaoren
+				(2)vi /etc/sysconfig/network
+1.5 ip与hostname绑定
+	执行命令	vi /etc/hosts
+	验证:		ping chaoren
+1.6 设置ssh免密码登陆
+	执行命令	(1)ssh-keygen -t rsa
+				(2)cp ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+	验证：		ssh chaoren
+1.7 安装jdk
+	执行命令	(1)cd /usr/local
+				(2)chmod u+x jdk-6u24-linux-i586.bin
+				(3)./jdk-6u24-linux-i586.bin
+				(4)mv jdk-1.6.0_24  jdk
+				(5)vi /etc/profile 增加内容如下:
+								export JAVA_HOME=/usr/local/jdk
+								export PATH=.:$JAVA_HOME/bin:$PATH
+				(6)source /etc/profile
+	验证:	java -version
+1.8 安装hadoop
+	执行命令	(1)tar -zxvf hadoop-1.1.2.tar.gz
+				(2)mv hadoop-1.1.2 hadoop
+				(3)vi /etc/profile 增加内容如下:
+								export JAVA_HOME=/usr/local/jdk
+								export HADOOP_HOME=/usr/local/hadoop
+								export PATH=.:$HADOOP_HOME/bin:$JAVA_HOME/bin:$PATH
+				(4)source /etc/profile
+				(5)修改conf目录下的配置文件hadoop-env.sh、core-site.xml、hdfs-site.xml、mapred-site.xml
+				(6)hadoop namenode -format
+				(7)start-all.sh
+	验证:	(1)执行命令jps 如果看到5个新的java进程，分别是NameNode、SecondaryNameNode、DataNode、JobTracker、TaskTracker
+			(2)在浏览器查看，http://chaoren:50070  http://chaoren:50030  
+1.9 启动时没有NameNode的可能原因:
+	(1)没有格式化
+	(2)环境变量设置错误
+	(3)ip与hostname绑定失败

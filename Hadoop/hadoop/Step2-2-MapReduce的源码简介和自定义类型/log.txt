@@ -1,0 +1,544 @@
+Setting PATH to C:\Users\Administrator\AppData\Local\lib\131015\codecs
+Using Windows native timing
+EOF code: 0  
+
+*** uninit(0x0)
+EOF code: 8  
+
+*** uninit(0x0)
+get_path('sub/') -> 'C:/Users/Administrator/AppData/Local/lib/mplayer/sub/'
+WINSOCK2 init: 0
+STREAM: [wzs] wzs://H:\kuaipan\hadoop\classes\yy131009\day5\1.job提交的源码分析.exe
+STREAM: Description: WZPlayer stream
+STREAM: Author: Weiny Zhou
+STREAM: Comment: copyright by Tiger Leap
+DEMUXER: freeing EDL demuxer at 0512aeb8
+LAVF_check: AVI (Audio Video Interleaved)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 32768, eof:0
+mp_seek(050dcbd8, 0, 65536)
+mp_seek(050dcbd8, 85330658, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 85363426, eof:0
+mp_seek(050dcbd8, 2048, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 34816, eof:0
+mp_seek(050dcbd8, 85330666, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 85363434, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 85396202, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 85428970, eof:0
+1814=mp_read(050dcbd8, 050f571c, 32768), pos: 85430784, eof:1
+mp_seek(050dcbd8, 2048, 0)
+mp_seek(050dcbd8, 10060, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 42828, eof:0
+mp_seek(050dcbd8, 2052, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 34820, eof:0
+mp_seek(050dcbd8, 2048, 0)
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 34816, eof:0
+mp_seek(050dcbd8, 0, 65536)
+1785473=mp_read(050dcbd8, 079360f0, 1785473), pos: 1820289, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 1853057, eof:0
+205819=mp_read(050dcbd8, 0521dff7, 205819), pos: 2058876, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2091644, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2124412, eof:0
+41534=mp_read(050dcbd8, 051e64b8, 41534), pos: 2165946, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2198714, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2231482, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2264250, eof:0
+40290=mp_read(050dcbd8, 0511b04a, 40290), pos: 2304540, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2337308, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2370076, eof:0
+116952=mp_read(050dcbd8, 052a5646, 116952), pos: 2487028, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2519796, eof:0
+106583=mp_read(050dcbd8, 052d0070, 106583), pos: 2626379, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2659147, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2691915, eof:0
+34164=mp_read(050dcbd8, 050b7727, 34164), pos: 2726079, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2758847, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2791615, eof:0
+135496=mp_read(050dcbd8, 0530d4ad, 135496), pos: 2927111, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 2959879, eof:0
+[avi @ 5f59d6e0]mp_seek(050dcbd8, 0, 65536)
+mp_seek(050dcbd8, 0, 65536)
+mp_seek(050dcbd8, 0, 65536)
+ID_VIDEO_ID=0
+ID_VID_0_NAME=CamCapture182db4_Screen.avi 视频 #1
+aspect= 1440*0/(900*1)
+[lavf] stream 0: video (camtasia), -vid 0, CamCapture182db4_Screen.avi 视频 #1
+ID_AUDIO_ID=0
+ID_AID_0_NAME=Microsoft Waveform: CamCapture182db4_Audio.wav
+[lavf] stream 1: audio (pcm_u8), -aid 0, Microsoft Waveform: CamCapture182db4_Audio.wav
+LAVF: 1 audio and 1 video streams found
+get_path('sub/') -> 'C:/Users/Administrator/AppData/Local/lib/mplayer/sub/'
+ID_FILENAME=wzs://H:\kuaipan\hadoop\classes\yy131009\day5\1.job提交的源码分析.exe
+ID_DEMUXER=lavfpref
+ID_VIDEO_FORMAT=tscc
+ID_VIDEO_BITRATE=0
+ID_VIDEO_WIDTH=1440
+ID_VIDEO_HEIGHT=900
+ID_VIDEO_FPS=4.000
+ID_VIDEO_ASPECT=0.0000
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+ID_AUDIO_FORMAT=1
+ID_AUDIO_BITRATE=64000
+ID_AUDIO_RATE=8000
+ID_AUDIO_NCH=1
+ID_START_TIME=0.00
+ID_LENGTH=1250.25
+ID_SEEKABLE=1
+ID_CHAPTERS=0
+<vo_directx><INFO>Initing DirectDraw
+<vo_directx><INFO>DirectDraw Initialized
+<vo_directx><INFO>checking primary surface
+<vo_directx><INFO>primary surface created
+<vo_directx><FORMAT PRIMARY>14 BGR32 supported
+<vo_directx><INFO>testing supported overlay pixelformats
+<vo_directx><FORMAT OVERLAY>0 YV12  supported
+<vo_directx><FORMAT OVERLAY>1 I420  not supported
+<vo_directx><FORMAT OVERLAY>2 IYUV  not supported
+<vo_directx><FORMAT OVERLAY>3 YVU9  not supported
+<vo_directx><FORMAT OVERLAY>4 YUY2  supported
+<vo_directx><FORMAT OVERLAY>5 UYVY  supported
+<vo_directx><FORMAT OVERLAY>6 BGR8  not supported
+<vo_directx><FORMAT OVERLAY>7 RGB15 not supported
+<vo_directx><FORMAT OVERLAY>8 BGR15 supported
+<vo_directx><FORMAT OVERLAY>9 RGB16 not supported
+<vo_directx><FORMAT OVERLAY>10 BGR16 supported
+<vo_directx><FORMAT OVERLAY>11 RGB24 not supported
+<vo_directx><FORMAT OVERLAY>12 BGR24 not supported
+<vo_directx><FORMAT OVERLAY>13 RGB32 not supported
+<vo_directx><FORMAT OVERLAY>14 BGR32 supported
+<vo_directx><INFO>Your card supports 6 of 15 overlayformats
+<vo_directx><INFO>hardware supports overlay
+<vo_directx><INFO>preinit succesfully finished
+ID_VIDEO_CODEC=ffcamtasia
+AUDIO: 8000 Hz, 1 ch, u8, 64.0 kbit/100.00% (ratio: 8000->8000)
+ID_AUDIO_BITRATE=64000
+ID_AUDIO_RATE=8000
+ID_AUDIO_NCH=1
+[libaf] Adding filter scaletempo 
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [scaletempo] 8000Hz/1ch/u8
+  [out] 0Hz/0ch/??
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [scaletempo] 8000Hz/1ch/u8
+  [out] 0Hz/0ch/??
+AO: [waveout] 8000Hz 1ch u8 (1 bytes per sample)
+AO: Description: Windows WaveOut interface
+AO: Author: Weiny Zhou <weinyzhou86@gmail.com>
+AO: Comment: 版权所有(C) 2013 虎跃工作室 All right reserved
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [scaletempo] 8000Hz/1ch/u8
+  [out] 8000Hz/1ch/u8
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [scaletempo] 8000Hz/1ch/u8
+  [out] 8000Hz/1ch/u8
+ID_AUDIO_CODEC=pcm
+[libaf] Adding filter volume 
+[libaf] Adding filter format 
+[format] Changing sample format from little-endian 8-bit unsigned int to little-endian 16-bit signed int
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [format] 8000Hz/1ch/s16le
+  [volume] 8000Hz/1ch/s16le
+  [scaletempo] 8000Hz/1ch/s16le
+  [out] 8000Hz/1ch/u8
+[libaf] Adding filter format 
+[format] Changing sample format from little-endian 16-bit signed int to little-endian 8-bit unsigned int
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [format] 8000Hz/1ch/s16le
+  [volume] 8000Hz/1ch/s16le
+  [scaletempo] 8000Hz/1ch/s16le
+  [format] 8000Hz/1ch/u8
+  [out] 8000Hz/1ch/u8
+[format] Changing sample format from little-endian 8-bit unsigned int to little-endian 16-bit signed int
+[scaletempo] 1.000 speed * 1.000 scale_nominal = 1.000
+[format] Changing sample format from little-endian 16-bit signed int to little-endian 8-bit unsigned int
+Audio filter chain:
+  [in] 8000Hz/1ch/u8
+  [format] 8000Hz/1ch/s16le
+  [volume] 8000Hz/1ch/s16le
+  [scaletempo] 8000Hz/1ch/s16le
+  [format] 8000Hz/1ch/u8
+  [out] 8000Hz/1ch/u8
+[ffmpeg] aspect_ratio: 0.000000
+VIDEO:  1440x900  4.000 fps    0.0 kbps ( 0.0 kB/s)
+VDec: vo config request - 1440 x 900 (preferred colorspace: BGR 24-bit)
+vo_debug: query(BGR 24-bit) returned 0x0 (i=0) 
+Opening video filter: [scale]
+SwScale params: -1 x -1 (-1=no scaling)
+scale: query(BGR 24-bit) -> 0
+scale: query(Planar 444P) -> 0
+scale: query(Planar 444P 16-bit little-endian) -> 0
+scale: query(Planar 444P 16-bit big-endian) -> 0
+scale: query(Planar 444P 10-bit little-endian) -> 0
+scale: query(Planar 444P 10-bit big-endian) -> 0
+scale: query(Planar 444P 9-bit little-endian) -> 0
+scale: query(Planar 444P 9-bit big-endian) -> 0
+scale: query(Planar 422P) -> 0
+scale: query(Planar 422P 16-bit little-endian) -> 0
+scale: query(Planar 422P 16-bit big-endian) -> 0
+scale: query(Planar 422P 10-bit little-endian) -> 0
+scale: query(Planar 422P 10-bit big-endian) -> 0
+scale: query(Planar 422P 9-bit little-endian) -> 0
+scale: query(Planar 422P 9-bit big-endian) -> 0
+scale: query(Planar YV12) -> 3
+vo_debug: query(BGR 24-bit) returned 0x455 (i=0) 
+VDec: using BGR 24-bit as output csp (no 0)
+VO Config (1440x900->1440x900,flags=0,0x42475218)
+scale: query(BGR 24-bit) -> 0
+scale: query(Planar 444P) -> 0
+scale: query(Planar 444P 16-bit little-endian) -> 0
+scale: query(Planar 444P 16-bit big-endian) -> 0
+scale: query(Planar 444P 10-bit little-endian) -> 0
+scale: query(Planar 444P 10-bit big-endian) -> 0
+scale: query(Planar 444P 9-bit little-endian) -> 0
+scale: query(Planar 444P 9-bit big-endian) -> 0
+scale: query(Planar 422P) -> 0
+scale: query(Planar 422P 16-bit little-endian) -> 0
+scale: query(Planar 422P 16-bit big-endian) -> 0
+scale: query(Planar 422P 10-bit little-endian) -> 0
+scale: query(Planar 422P 10-bit big-endian) -> 0
+scale: query(Planar 422P 9-bit little-endian) -> 0
+scale: query(Planar 422P 9-bit big-endian) -> 0
+scale: query(Planar YV12) -> 3
+SwScale: scaling 1440x900 BGR 24-bit to 1440x900 Planar YV12  
+[swscaler @ 5f5bfc60]REQ: flags=0x417  req=0x0  
+VO: [directx] 1440x900 => 1440x900 Planar YV12 
+VO: Description: Directx DDraw YUV/RGB/BGR renderer
+VO: Author: Sascha Sommer <saschasommer@freenet.de>
+aspect_save_orig 1440x900
+aspect_save_prescale 1440x900
+aspect_save_screenres 1440x900
+aspect(0) fitin: 1440x900 screenaspect: 1.60
+aspect(1) wh: 1440x900 (org: 1440x900)
+aspect(2) wh: 1440x900 (org: 1440x900)
+<vo_directx><INFO>overlay surfaces released
+<vo_directx><INFO>primary surface created
+<vo_directx><INFO>overlay with format YV12  created
+<vo_directx><WARN>unable to get DirectDraw ColorControl interface
+aspect(0) fitin: 1440x900 screenaspect: 1.60
+aspect(1) wh: 1440x900 (org: 1440x900)
+aspect(2) wh: 1440x900 (org: 1440x900)
+*** [scale] Exporting mp_image_t, 1440x900x24bpp BGR packed, 3888000 bytes
+(imgfmt: 42475218, planes: 00000000,00000000,00000000 strides: 0,0,0, chroma: 0x0, shift: h:0,v:0)
+*** [vo] Allocating mp_image_t, 1440x900x12bpp YUV planar, 1944000 bytes
+(imgfmt: 32315659, planes: 0d870040,0d9fb860,0d9ac6c0 strides: 1440,720,720, chroma: 720x450, shift: h:1,v:1)
+aspect(0) fitin: 872x545 screenaspect: 1.60
+aspect(1) wh: 872x546 (org: 1440x900)
+aspect(2) wh: 872x545 (org: 1440x900)
+[libaf] Reallocating memory in module format, old len = 0, new len = 1026
+[libaf] Reallocating memory in module format, old len = 0, new len = 515
+Increasing filtered audio buffer size from 0 to 512
+[libaf] Reallocating memory in module format, old len = 1026, new len = 14338
+[libaf] Reallocating memory in module format, old len = 515, new len = 7171
+Increasing filtered audio buffer size from 512 to 7680
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_seek_lavf(0512aeb8, 115.407692, 0.000000, 9)
+mp_seek(050dcbd8, 8704392, 0)
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 8737160, eof:0
+demux_lavf_fill_buffer()
+181639=mp_read(050dcbd8, 0521ac60, 181639), pos: 8918799, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 8951567, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 8984335, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+314189=mp_read(050dcbd8, 053301bb, 314189), pos: 9298524, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9331292, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9364060, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9396828, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9429596, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9462364, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9495132, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9527900, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+[libaf] Reallocating memory in module format, old len = 14338, new len = 40002
+[libaf] Reallocating memory in module format, old len = 7171, new len = 20003
+Increasing filtered audio buffer size from 7680 to 20512
+[libaf] Reallocating memory in module format, old len = 40002, new len = 41026
+[libaf] Reallocating memory in module format, old len = 20003, new len = 20515
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 9560668, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_seek_lavf(0512aeb8, 185.476654, 0.000000, 9)
+mp_seek(050dcbd8, 17362032, 0)
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17394800, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17427568, eof:0
+187427=mp_read(050dcbd8, 052186b0, 187427), pos: 17614995, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17647763, eof:0
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17680531, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17713299, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+39021=mp_read(050dcbd8, 0512d7e9, 39021), pos: 17752320, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17785088, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17817856, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17850624, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17883392, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17916160, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 17948928, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_seek_lavf(0512aeb8, 244.554398, 0.000000, 9)
+mp_seek(050dcbd8, 20651310, 0)
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 20684078, eof:0
+demux_lavf_fill_buffer()
+222327=mp_read(050dcbd8, 0521a978, 222327), pos: 20906405, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 20939173, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 20971941, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 21004709, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 21037477, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 21070245, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 21103013, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+42897=mp_read(050dcbd8, 051572c1, 42897), pos: 21145910, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 21178678, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_seek_lavf(0512aeb8, 383.318420, 0.000000, 9)
+mp_seek(050dcbd8, 28270614, 0)
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28303382, eof:0
+demux_lavf_fill_buffer()
+240128=mp_read(050dcbd8, 0533504a, 240128), pos: 28543510, eof:0
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28576278, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28609046, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28641814, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28674582, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28707350, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+32768=mp_read(050dcbd8, 050f571c, 32768), pos: 28740118, eof:0
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+demux_lavf_fill_buffer()
+
+  =====  PAUSE  =====ID_PAUSED
+EOF code: 0  
+
+*** uninit(0xE43)
+Uninit audio filters...
+[libaf] Removing filter format 
+[libaf] Removing filter volume 
+[libaf] Removing filter scaletempo 
+[libaf] Removing filter format 
+DEMUXER: freeing libavformat demuxer at 0512aeb8
+DEMUXER: freeing sh_audio at 0532e9d8
+DEMUXER: freeing sh_video at 0532e768
+WINSOCK2 uninit
+<vo_directx><INFO>clipper released
+<vo_directx><INFO>back surface released
+<vo_directx><INFO>overlay surface released
+<vo_directx><INFO>primary released
+<vo_directx><INFO>GDI resources deleted
+<vo_directx><INFO>directdrawobject released
+<vo_directx><INFO>ddraw.dll freed
+<vo_directx><INFO>uninitialized
+vo: win32: uninit
+
+*** uninit(0x0)
