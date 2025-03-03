@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+    <!-- import CSS -->
+    <link rel="stylesheet" href="element.css">
+</head>
+<body>
+
+<div id="app" style="width:80%;margin:0 auto">
+    <h2>学生信息</h2>
+    <el-row>
+        <el-col :span="6">
+            <el-button type="success" round @click="add">新增</el-button>
+            <el-input style="width:60%" v-model="clazz" placeholder="请输入班级进行查找" @keyup.enter.native="search"></el-input>
+        </el-col>
+    </el-row>
+    <el-table
+            :data="tableData"
+            stripe
+            style="width: 100%">
+        <el-table-column
+                prop="name"
+                label="姓名"
+                width="180">
+        </el-table-column>
+        <el-table-column
+                prop="age"
+                label="年龄"
+                width="180">
+        </el-table-column>
+        <el-table-column
+                prop="gender"
+                label="性别">
+        </el-table-column>
+        <el-table-column
+                prop="clazz"
+                label="班级">
+        </el-table-column>
+        <el-table-column
+                prop="sumScore"
+                label="总分">
+        </el-table-column>
+        <el-table-column
+                label="操作">
+            <template slot-scope="scope">
+                <el-button type="primary" icon="el-icon-edit" circle @click="edit(scope.row)"></el-button>
+                <el-button type="danger" icon="el-icon-delete" circle @click="del(scope.row.id)"></el-button>
+            </template>
+        </el-table-column>
+    </el-table>
+    <el-row type="flex" class="row-bg" justify="center">
+        <el-pagination
+                layout="prev, pager, next"
+                :total="totalElements"
+                :page-size="pageSize"
+                :current-page.sync="pageNum"
+                @current-change="loadTable">
+        </el-pagination>
+    </el-row>
+
+    <el-dialog title="新增学生" :visible.sync="dialogFormVisible">
+        <el-form :model="form">
+            <el-form-item label="姓名" :label-width="formLabelWidth">
+                <el-input v-model="form.name"></el-input>
+            </el-form-item>
+            <el-form-item label="年龄" :label-width="formLabelWidth">
+                <el-input v-model="form.age"></el-input>
+            </el-form-item>
+            <el-form-item label="性别" :label-width="formLabelWidth">
+                <el-select v-model="form.gender" placeholder="请选择性别">
+                    <el-option label="男" value="男"></el-option>
+                    <el-option label="女" value="女"></el-option>
+                </el-select>
+            </el-form-item>
+            <el-form-item label="班级" :label-width="formLabelWidth">
+                <el-input v-model="form.clazz"></el-input>
+            </el-form-item>
+            <el-form-item label="总分" :label-width="formLabelWidth">
+                <el-input v-model="form.sumScore"></el-input>
+            </el-form-item>
+        </el-form>
+        <div slot="footer" class="dialog-footer">
+            <el-button @click="dialogFormVisible = false">取 消</el-button>
+            <el-button type="primary" @click="save">确 定</el-button>
+        </div>
+    </el-dialog>
+</div>
+</body>
+<!-- 导入前端依赖库 -->
+<script src="jquery.min.js"></script>
+<script src="vue.js"></script>
+<script src="element.js"></script>
+<script>
+    new Vue({
+      el: '#app',
+      data:{
+        tableData: [],
+        pageSize:10,
+        pageNum:1,
+        totalElements:0,
+        clazz:'',
+        dialogFormVisible:false,
+        form: {},
+        formLabelWidth: '80px'
+      },
+      created(){
+        this.loadTable();
+      },
+      methods:{
+        loadTable(){
+            $.get("/stu/pageOrsearch?pageSize="+this.pageSize+"&pageNum="+this.pageNum+"&clazz="+this.clazz).then(res=>{
+                this.tableData=res.data.content;
+                this.totalElements=res.data.totalElements;
+            })
+        },
+        del(id){
+            console.log(id);
+            $.ajax({
+                url: '/stu/' + id,
+                type: 'delete',
+                contentType: 'application/json'
+            }).then(res=>{
+                console.log(res);
+                // 重新加载页面
+                this.loadTable();
+            })
+        },
+        add(){
+            this.dialogFormVisible = true;
+        },
+        save(){
+            console.log(this.form);
+            $.ajax({
+                url:'/stu',
+                type:'post',
+                contentType:'application/json',
+                data: JSON.stringify(this.form)
+            }).then(res=>{
+                console.log(res);
+                this.dialogFormVisible = false;
+                this.loadTable();
+                this.form = {};
+            })
+
+        },
+        edit(row){
+            this.form = row;
+            this.dialogFormVisible = true;
+        },
+        search(){
+            this.pageNum = 1;
+            this.loadTable();
+        }
+      }
+    })
+
+
+
+
+</script>
+</html>
